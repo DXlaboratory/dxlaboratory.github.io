@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Test on 鼎星安全</title>
+        <title>Test on 鼎新安全</title>
         <link>https://dxlaboratory.github.io/categories/test/</link>
-        <description>Recent content in Test on 鼎星安全</description>
+        <description>Recent content in Test on 鼎新安全</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>鼎星实验室</copyright><atom:link href="https://dxlaboratory.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>鼎新实验室</copyright><atom:link href="https://dxlaboratory.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
