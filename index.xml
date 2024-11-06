@@ -1649,6 +1649,310 @@ If you enjoyed this CTF, send me a tweet via @DCAU7.&lt;/p&gt;
 </description>
         </item>
         <item>
+        <title>Vmware搭建教程</title>
+        <link>https://dxlaboratory.github.io/p/test5-chinese/</link>
+        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://dxlaboratory.github.io/p/test5-chinese/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;h1 id=&#34;1打开虚拟机创建一个新的虚拟机&#34;&gt;1、打开虚拟机，创建一个新的虚拟机
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628238721-0cd578d0-8e46-4d3a-a0ce-e43ebd44b739.png&#34;
+	width=&#34;1289&#34;
+	height=&#34;579&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628238721-0cd578d0-8e46-4d3a-a0ce-e43ebd44b739_hu13054365400918779638.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628238721-0cd578d0-8e46-4d3a-a0ce-e43ebd44b739_hu2790579514039936800.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;222&#34;
+		data-flex-basis=&#34;534px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;2点击自定义高级&#34;&gt;2、点击自定义（高级）
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628307529-d224429b-901a-490b-ab85-8a6eea5254fd.png&#34;
+	width=&#34;586&#34;
+	height=&#34;557&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628307529-d224429b-901a-490b-ab85-8a6eea5254fd_hu11607985384903757370.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628307529-d224429b-901a-490b-ab85-8a6eea5254fd_hu15440718919592316390.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;105&#34;
+		data-flex-basis=&#34;252px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;3直接下一步&#34;&gt;3、直接下一步
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628348279-f2243137-2a7f-46c4-ac25-da627ad7a2dc.png&#34;
+	width=&#34;586&#34;
+	height=&#34;557&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628348279-f2243137-2a7f-46c4-ac25-da627ad7a2dc_hu16472099750056942199.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628348279-f2243137-2a7f-46c4-ac25-da627ad7a2dc_hu9760948661650704810.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;105&#34;
+		data-flex-basis=&#34;252px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;4稍后安装操作系统&#34;&gt;4、稍后安装操作系统
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628368270-51c31eeb-ccc7-4a9c-8ec4-09a6296e1514.png&#34;
+	width=&#34;586&#34;
+	height=&#34;557&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628368270-51c31eeb-ccc7-4a9c-8ec4-09a6296e1514_hu5046426316589360248.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628368270-51c31eeb-ccc7-4a9c-8ec4-09a6296e1514_hu14614782714061221752.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;105&#34;
+		data-flex-basis=&#34;252px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;5选择微软的window版本要根据自己的镜像文件来决定选择好后点击下一步&#34;&gt;5、选择微软的window，版本要根据自己的镜像文件来决定，选择好后点击下一步
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628416885-80142420-d02b-4a9a-aa9c-d5bf1701d312.png&#34;
+	width=&#34;556&#34;
+	height=&#34;540&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628416885-80142420-d02b-4a9a-aa9c-d5bf1701d312_hu3887143996151190360.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628416885-80142420-d02b-4a9a-aa9c-d5bf1701d312_hu13481105519622491701.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;247px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;6虚拟机名称可自定义更改-安装位置建议不要安装在c盘完事后下一步&#34;&gt;6、虚拟机名称：可自定义更改！ 安装位置：建议不要安装在C盘，完事后下一步
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628470372-30dd1641-a66a-4261-8b0a-a93139083a56.png&#34;
+	width=&#34;586&#34;
+	height=&#34;557&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628470372-30dd1641-a66a-4261-8b0a-a93139083a56_hu16091955061266639847.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628470372-30dd1641-a66a-4261-8b0a-a93139083a56_hu14632781318631517258.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;105&#34;
+		data-flex-basis=&#34;252px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;7这里用bios就可以然后下一步&#34;&gt;7、这里用BIOS就可以，然后下一步
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628503541-83588414-3355-4433-9fe2-81d53c58dee4.png&#34;
+	width=&#34;555&#34;
+	height=&#34;536&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628503541-83588414-3355-4433-9fe2-81d53c58dee4_hu8264090013088297961.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628503541-83588414-3355-4433-9fe2-81d53c58dee4_hu5436235944166114964.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;103&#34;
+		data-flex-basis=&#34;248px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;8这里根据物理机的硬性要求自定义设置&#34;&gt;8、这里根据物理机的硬性要求，自定义设置。
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628749956-0944238e-5191-4d22-9089-4c78adc996ac.png&#34;
+	width=&#34;552&#34;
+	height=&#34;541&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628749956-0944238e-5191-4d22-9089-4c78adc996ac_hu1867916283459161417.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628749956-0944238e-5191-4d22-9089-4c78adc996ac_hu7589226996951912875.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;244px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;9分配运行内存&#34;&gt;9、分配运行内存
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628775509-28589315-2181-44b2-b60e-746ac6f488ac.png&#34;
+	width=&#34;560&#34;
+	height=&#34;536&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628775509-28589315-2181-44b2-b60e-746ac6f488ac_hu3266925967367819136.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628775509-28589315-2181-44b2-b60e-746ac6f488ac_hu8470538454466151556.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;104&#34;
+		data-flex-basis=&#34;250px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;10设置网络&#34;&gt;10、设置网络
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628790017-2c1d3af9-46fd-4fed-8927-0ff96117cca0.png&#34;
+	width=&#34;561&#34;
+	height=&#34;537&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628790017-2c1d3af9-46fd-4fed-8927-0ff96117cca0_hu17852183322232393364.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628790017-2c1d3af9-46fd-4fed-8927-0ff96117cca0_hu4619065131384730593.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;104&#34;
+		data-flex-basis=&#34;250px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;11默认点击下一步&#34;&gt;11、默认点击下一步
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628871810-79aa2b3e-ad54-4a4c-b443-33bb234ddf44.png&#34;
+	width=&#34;544&#34;
+	height=&#34;537&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628871810-79aa2b3e-ad54-4a4c-b443-33bb234ddf44_hu4421891615147767182.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628871810-79aa2b3e-ad54-4a4c-b443-33bb234ddf44_hu4192472460812604632.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;101&#34;
+		data-flex-basis=&#34;243px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;12选择scsi然后点击下一步&#34;&gt;12、选择SCSI，然后点击下一步
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628945036-f02eb546-d029-4060-82f4-6701576dd5db.png&#34;
+	width=&#34;547&#34;
+	height=&#34;539&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628945036-f02eb546-d029-4060-82f4-6701576dd5db_hu11028501379840033380.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628945036-f02eb546-d029-4060-82f4-6701576dd5db_hu8367585965606393099.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;101&#34;
+		data-flex-basis=&#34;243px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;13创建一个新的虚拟磁盘&#34;&gt;13、创建一个新的虚拟磁盘
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628962431-6dd1828a-8c58-4302-9c55-0754cc8665c8.png&#34;
+	width=&#34;556&#34;
+	height=&#34;541&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628962431-6dd1828a-8c58-4302-9c55-0754cc8665c8_hu14654146612176324175.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628962431-6dd1828a-8c58-4302-9c55-0754cc8665c8_hu14130351980985970281.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;246px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;14分配磁盘空间选择单个文件初期方便管理&#34;&gt;14、分配磁盘空间，选择单个文件初期方便管理
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628984371-ca77bde7-6563-4124-8bbb-4f4cbb96ae02.png&#34;
+	width=&#34;561&#34;
+	height=&#34;544&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628984371-ca77bde7-6563-4124-8bbb-4f4cbb96ae02_hu17930377635411728449.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628984371-ca77bde7-6563-4124-8bbb-4f4cbb96ae02_hu7412158201454918662.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;103&#34;
+		data-flex-basis=&#34;247px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;15默认点击下一步&#34;&gt;15、默认，点击下一步
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628995380-58d57892-0988-4b3b-9cdc-3231e9c7afcd.png&#34;
+	width=&#34;559&#34;
+	height=&#34;540&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628995380-58d57892-0988-4b3b-9cdc-3231e9c7afcd_hu14443487926240633434.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730628995380-58d57892-0988-4b3b-9cdc-3231e9c7afcd_hu10275053362966872714.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;103&#34;
+		data-flex-basis=&#34;248px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;16点击自定义硬件&#34;&gt;16、点击自定义硬件
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629021197-7183fd92-03b5-43c6-8e9e-5be9a1f16ae3.png&#34;
+	width=&#34;556&#34;
+	height=&#34;534&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629021197-7183fd92-03b5-43c6-8e9e-5be9a1f16ae3_hu14463764851697126233.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629021197-7183fd92-03b5-43c6-8e9e-5be9a1f16ae3_hu6609832236514043383.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;104&#34;
+		data-flex-basis=&#34;249px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;无解释纯操作&#34;&gt;无解释纯操作
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629122374-b181368c-8bbd-4e1e-814c-940eae551688.png&#34;
+	width=&#34;586&#34;
+	height=&#34;557&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629122374-b181368c-8bbd-4e1e-814c-940eae551688_hu11731923401483548834.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629122374-b181368c-8bbd-4e1e-814c-940eae551688_hu15707184107509007523.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;105&#34;
+		data-flex-basis=&#34;252px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629138425-9b8ccd9d-a42c-4aab-b6c2-ead8ad53f078.png&#34;
+	width=&#34;1097&#34;
+	height=&#34;644&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629138425-9b8ccd9d-a42c-4aab-b6c2-ead8ad53f078_hu2335415459679777885.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629138425-9b8ccd9d-a42c-4aab-b6c2-ead8ad53f078_hu3799884469661577577.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;408px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629198636-46332294-cb81-4b8f-888c-ead81e657d2f.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;766&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629198636-46332294-cb81-4b8f-888c-ead81e657d2f_hu12601923765929882498.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629198636-46332294-cb81-4b8f-888c-ead81e657d2f_hu5958734920004506030.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629236192-15df913b-03c6-44db-8950-8bf04d8de813.png&#34;
+	width=&#34;621&#34;
+	height=&#34;471&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629236192-15df913b-03c6-44db-8950-8bf04d8de813_hu5670945483612641015.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629236192-15df913b-03c6-44db-8950-8bf04d8de813_hu15913530568588157280.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;131&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629248294-dc040a55-32dc-40c4-aa71-6e4d98a99477.png&#34;
+	width=&#34;665&#34;
+	height=&#34;510&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629248294-dc040a55-32dc-40c4-aa71-6e4d98a99477_hu16476885307886433103.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730629248294-dc040a55-32dc-40c4-aa71-6e4d98a99477_hu15237121397340550133.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;130&#34;
+		data-flex-basis=&#34;312px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;最后&#34;&gt;最后
+&lt;/h1&gt;&lt;p&gt;记得安装一个下tools&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730630248856-694b3453-1b28-447c-9608-2020fa06637e.png&#34;
+	width=&#34;1226&#34;
+	height=&#34;986&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730630248856-694b3453-1b28-447c-9608-2020fa06637e_hu7701199982390510634.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730630248856-694b3453-1b28-447c-9608-2020fa06637e_hu18218058005940845845.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;124&#34;
+		data-flex-basis=&#34;298px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730630338926-d5f105e2-1160-4213-92c7-4bf626082c12.png&#34;
+	width=&#34;1025&#34;
+	height=&#34;770&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730630338926-d5f105e2-1160-4213-92c7-4bf626082c12_hu12642247608383178741.png 480w, https://dxlaboratory.github.io/p/test5-chinese/index.assets/1730630338926-d5f105e2-1160-4213-92c7-4bf626082c12_hu378279790510370520.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;319px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>域</title>
         <link>https://dxlaboratory.github.io/p/test-chinese/</link>
         <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>

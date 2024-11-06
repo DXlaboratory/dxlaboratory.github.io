@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Vmware">
+<title>Vmware搭建教程</title>
+
+<link rel='canonical' href='https://dxlaboratory.github.io/p/test5-chinese/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Vmware搭建教程">
+<meta property='og:description' content="Vmware">
+<meta property='og:url' content='https://dxlaboratory.github.io/p/test5-chinese/'>
+<meta property='og:site_name' content='鼎新安全'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-10-31T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-31T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Vmware搭建教程">
+<meta name="twitter:description" content="Vmware">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu15989093696106354798.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">👻</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">鼎新安全</a></h1>
+            <h2 class="site-description">欢迎来到鼎新实验室</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/DXlaboratory/dxlaboratory.github.io'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://mp.weixin.qq.com/s/jZzsY_2BypWwcvoKPSW0jw'
+                        target="_blank"
+                        title="WX"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1152" height="1024" viewBox="0 0 576 512" role="img"><path d="M385.2 167.6c6.4 0 12.6.3 18.8 1.1C387.4 90.3 303.3 32 207.7 32 100.5 32 13 104.8 13 197.4c0 53.4 29.3 97.5 77.9 131.6l-19.3 58.6 68-34.1c24.4 4.8 43.8 9.7 68.2 9.7 6.2 0 12.1-.3 18.3-.8-4-12.9-6.2-26.6-6.2-40.8-.1-84.9 72.9-154 165.3-154zm-104.5-52.9c14.5 0 24.2 9.7 24.2 24.4 0 14.5-9.7 24.2-24.2 24.2-14.8 0-29.3-9.7-29.3-24.2.1-14.7 14.6-24.4 29.3-24.4zm-136.4 48.6c-14.5 0-29.3-9.7-29.3-24.2 0-14.8 14.8-24.4 29.3-24.4 14.8 0 24.4 9.7 24.4 24.4 0 14.6-9.6 24.2-24.4 24.2zM563 319.4c0-77.9-77.9-141.3-165.4-141.3-92.7 0-165.4 63.4-165.4 141.3S305 460.7 397.6 460.7c19.3 0 38.9-5.1 58.6-9.9l53.4 29.3-14.8-48.6C534 402.1 563 363.2 563 319.4zm-219.1-24.5c-9.7 0-19.3-9.7-19.3-19.6 0-9.7 9.7-19.3 19.3-19.3 14.8 0 24.4 9.7 24.4 19.3 0 10-9.7 19.6-24.4 19.6zm107.1 0c-9.7 0-19.3-9.7-19.3-19.6 0-9.7 9.7-19.3 19.3-19.3 14.5 0 24.4 9.7 24.4 19.3.1 10-9.9 19.6-24.4 19.6z"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://dxlaboratory.github.io/en/" >English</option>
+                                
+                                    <option value="https://dxlaboratory.github.io/" selected>简体中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%96%87%E7%AB%A0/" >
+                文章
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/test5-chinese/">Vmware搭建教程</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Vmware
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 31, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>+++</p>
+<h1 id="1打开虚拟机创建一个新的虚拟机">1、打开虚拟机，创建一个新的虚拟机
+</h1><p><img src="/p/test5-chinese/index.assets/1730628238721-0cd578d0-8e46-4d3a-a0ce-e43ebd44b739.png"
+	width="1289"
+	height="579"
+	srcset="/p/test5-chinese/index.assets/1730628238721-0cd578d0-8e46-4d3a-a0ce-e43ebd44b739_hu13054365400918779638.png 480w, /p/test5-chinese/index.assets/1730628238721-0cd578d0-8e46-4d3a-a0ce-e43ebd44b739_hu2790579514039936800.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="222"
+		data-flex-basis="534px"
+	
+></p>
+<h1 id="2点击自定义高级">2、点击自定义（高级）
+</h1><p><img src="/p/test5-chinese/index.assets/1730628307529-d224429b-901a-490b-ab85-8a6eea5254fd.png"
+	width="586"
+	height="557"
+	srcset="/p/test5-chinese/index.assets/1730628307529-d224429b-901a-490b-ab85-8a6eea5254fd_hu11607985384903757370.png 480w, /p/test5-chinese/index.assets/1730628307529-d224429b-901a-490b-ab85-8a6eea5254fd_hu15440718919592316390.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="105"
+		data-flex-basis="252px"
+	
+></p>
+<h1 id="3直接下一步">3、直接下一步
+</h1><p><img src="/p/test5-chinese/index.assets/1730628348279-f2243137-2a7f-46c4-ac25-da627ad7a2dc.png"
+	width="586"
+	height="557"
+	srcset="/p/test5-chinese/index.assets/1730628348279-f2243137-2a7f-46c4-ac25-da627ad7a2dc_hu16472099750056942199.png 480w, /p/test5-chinese/index.assets/1730628348279-f2243137-2a7f-46c4-ac25-da627ad7a2dc_hu9760948661650704810.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="105"
+		data-flex-basis="252px"
+	
+></p>
+<h1 id="4稍后安装操作系统">4、稍后安装操作系统
+</h1><p><img src="/p/test5-chinese/index.assets/1730628368270-51c31eeb-ccc7-4a9c-8ec4-09a6296e1514.png"
+	width="586"
+	height="557"
+	srcset="/p/test5-chinese/index.assets/1730628368270-51c31eeb-ccc7-4a9c-8ec4-09a6296e1514_hu5046426316589360248.png 480w, /p/test5-chinese/index.assets/1730628368270-51c31eeb-ccc7-4a9c-8ec4-09a6296e1514_hu14614782714061221752.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="105"
+		data-flex-basis="252px"
+	
+></p>
+<h1 id="5选择微软的window版本要根据自己的镜像文件来决定选择好后点击下一步">5、选择微软的window，版本要根据自己的镜像文件来决定，选择好后点击下一步
+</h1><p><img src="/p/test5-chinese/index.assets/1730628416885-80142420-d02b-4a9a-aa9c-d5bf1701d312.png"
+	width="556"
+	height="540"
+	srcset="/p/test5-chinese/index.assets/1730628416885-80142420-d02b-4a9a-aa9c-d5bf1701d312_hu3887143996151190360.png 480w, /p/test5-chinese/index.assets/1730628416885-80142420-d02b-4a9a-aa9c-d5bf1701d312_hu13481105519622491701.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="102"
+		data-flex-basis="247px"
+	
+></p>
+<h1 id="6虚拟机名称可自定义更改-安装位置建议不要安装在c盘完事后下一步">6、虚拟机名称：可自定义更改！ 安装位置：建议不要安装在C盘，完事后下一步
+</h1><p><img src="/p/test5-chinese/index.assets/1730628470372-30dd1641-a66a-4261-8b0a-a93139083a56.png"
+	width="586"
+	height="557"
+	srcset="/p/test5-chinese/index.assets/1730628470372-30dd1641-a66a-4261-8b0a-a93139083a56_hu16091955061266639847.png 480w, /p/test5-chinese/index.assets/1730628470372-30dd1641-a66a-4261-8b0a-a93139083a56_hu14632781318631517258.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="105"
+		data-flex-basis="252px"
+	
+></p>
+<h1 id="7这里用bios就可以然后下一步">7、这里用BIOS就可以，然后下一步
+</h1><p><img src="/p/test5-chinese/index.assets/1730628503541-83588414-3355-4433-9fe2-81d53c58dee4.png"
+	width="555"
+	height="536"
+	srcset="/p/test5-chinese/index.assets/1730628503541-83588414-3355-4433-9fe2-81d53c58dee4_hu8264090013088297961.png 480w, /p/test5-chinese/index.assets/1730628503541-83588414-3355-4433-9fe2-81d53c58dee4_hu5436235944166114964.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="103"
+		data-flex-basis="248px"
+	
+></p>
+<h1 id="8这里根据物理机的硬性要求自定义设置">8、这里根据物理机的硬性要求，自定义设置。
+</h1><p><img src="/p/test5-chinese/index.assets/1730628749956-0944238e-5191-4d22-9089-4c78adc996ac.png"
+	width="552"
+	height="541"
+	srcset="/p/test5-chinese/index.assets/1730628749956-0944238e-5191-4d22-9089-4c78adc996ac_hu1867916283459161417.png 480w, /p/test5-chinese/index.assets/1730628749956-0944238e-5191-4d22-9089-4c78adc996ac_hu7589226996951912875.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="102"
+		data-flex-basis="244px"
+	
+></p>
+<h1 id="9分配运行内存">9、分配运行内存
+</h1><p><img src="/p/test5-chinese/index.assets/1730628775509-28589315-2181-44b2-b60e-746ac6f488ac.png"
+	width="560"
+	height="536"
+	srcset="/p/test5-chinese/index.assets/1730628775509-28589315-2181-44b2-b60e-746ac6f488ac_hu3266925967367819136.png 480w, /p/test5-chinese/index.assets/1730628775509-28589315-2181-44b2-b60e-746ac6f488ac_hu8470538454466151556.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="104"
+		data-flex-basis="250px"
+	
+></p>
+<h1 id="10设置网络">10、设置网络
+</h1><p><img src="/p/test5-chinese/index.assets/1730628790017-2c1d3af9-46fd-4fed-8927-0ff96117cca0.png"
+	width="561"
+	height="537"
+	srcset="/p/test5-chinese/index.assets/1730628790017-2c1d3af9-46fd-4fed-8927-0ff96117cca0_hu17852183322232393364.png 480w, /p/test5-chinese/index.assets/1730628790017-2c1d3af9-46fd-4fed-8927-0ff96117cca0_hu4619065131384730593.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="104"
+		data-flex-basis="250px"
+	
+></p>
+<h1 id="11默认点击下一步">11、默认点击下一步
+</h1><p><img src="/p/test5-chinese/index.assets/1730628871810-79aa2b3e-ad54-4a4c-b443-33bb234ddf44.png"
+	width="544"
+	height="537"
+	srcset="/p/test5-chinese/index.assets/1730628871810-79aa2b3e-ad54-4a4c-b443-33bb234ddf44_hu4421891615147767182.png 480w, /p/test5-chinese/index.assets/1730628871810-79aa2b3e-ad54-4a4c-b443-33bb234ddf44_hu4192472460812604632.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="101"
+		data-flex-basis="243px"
+	
+></p>
+<h1 id="12选择scsi然后点击下一步">12、选择SCSI，然后点击下一步
+</h1><p><img src="/p/test5-chinese/index.assets/1730628945036-f02eb546-d029-4060-82f4-6701576dd5db.png"
+	width="547"
+	height="539"
+	srcset="/p/test5-chinese/index.assets/1730628945036-f02eb546-d029-4060-82f4-6701576dd5db_hu11028501379840033380.png 480w, /p/test5-chinese/index.assets/1730628945036-f02eb546-d029-4060-82f4-6701576dd5db_hu8367585965606393099.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="101"
+		data-flex-basis="243px"
+	
+></p>
+<h1 id="13创建一个新的虚拟磁盘">13、创建一个新的虚拟磁盘
+</h1><p><img src="/p/test5-chinese/index.assets/1730628962431-6dd1828a-8c58-4302-9c55-0754cc8665c8.png"
+	width="556"
+	height="541"
+	srcset="/p/test5-chinese/index.assets/1730628962431-6dd1828a-8c58-4302-9c55-0754cc8665c8_hu14654146612176324175.png 480w, /p/test5-chinese/index.assets/1730628962431-6dd1828a-8c58-4302-9c55-0754cc8665c8_hu14130351980985970281.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="102"
+		data-flex-basis="246px"
+	
+></p>
+<h1 id="14分配磁盘空间选择单个文件初期方便管理">14、分配磁盘空间，选择单个文件初期方便管理
+</h1><p><img src="/p/test5-chinese/index.assets/1730628984371-ca77bde7-6563-4124-8bbb-4f4cbb96ae02.png"
+	width="561"
+	height="544"
+	srcset="/p/test5-chinese/index.assets/1730628984371-ca77bde7-6563-4124-8bbb-4f4cbb96ae02_hu17930377635411728449.png 480w, /p/test5-chinese/index.assets/1730628984371-ca77bde7-6563-4124-8bbb-4f4cbb96ae02_hu7412158201454918662.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="103"
+		data-flex-basis="247px"
+	
+></p>
+<h1 id="15默认点击下一步">15、默认，点击下一步
+</h1><p><img src="/p/test5-chinese/index.assets/1730628995380-58d57892-0988-4b3b-9cdc-3231e9c7afcd.png"
+	width="559"
+	height="540"
+	srcset="/p/test5-chinese/index.assets/1730628995380-58d57892-0988-4b3b-9cdc-3231e9c7afcd_hu14443487926240633434.png 480w, /p/test5-chinese/index.assets/1730628995380-58d57892-0988-4b3b-9cdc-3231e9c7afcd_hu10275053362966872714.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="103"
+		data-flex-basis="248px"
+	
+></p>
+<h1 id="16点击自定义硬件">16、点击自定义硬件
+</h1><p><img src="/p/test5-chinese/index.assets/1730629021197-7183fd92-03b5-43c6-8e9e-5be9a1f16ae3.png"
+	width="556"
+	height="534"
+	srcset="/p/test5-chinese/index.assets/1730629021197-7183fd92-03b5-43c6-8e9e-5be9a1f16ae3_hu14463764851697126233.png 480w, /p/test5-chinese/index.assets/1730629021197-7183fd92-03b5-43c6-8e9e-5be9a1f16ae3_hu6609832236514043383.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="104"
+		data-flex-basis="249px"
+	
+></p>
+<h1 id="无解释纯操作">无解释纯操作
+</h1><p><img src="/p/test5-chinese/index.assets/1730629122374-b181368c-8bbd-4e1e-814c-940eae551688.png"
+	width="586"
+	height="557"
+	srcset="/p/test5-chinese/index.assets/1730629122374-b181368c-8bbd-4e1e-814c-940eae551688_hu11731923401483548834.png 480w, /p/test5-chinese/index.assets/1730629122374-b181368c-8bbd-4e1e-814c-940eae551688_hu15707184107509007523.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="105"
+		data-flex-basis="252px"
+	
+></p>
+<p><img src="/p/test5-chinese/index.assets/1730629138425-9b8ccd9d-a42c-4aab-b6c2-ead8ad53f078.png"
+	width="1097"
+	height="644"
+	srcset="/p/test5-chinese/index.assets/1730629138425-9b8ccd9d-a42c-4aab-b6c2-ead8ad53f078_hu2335415459679777885.png 480w, /p/test5-chinese/index.assets/1730629138425-9b8ccd9d-a42c-4aab-b6c2-ead8ad53f078_hu3799884469661577577.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="408px"
+	
+></p>
+<p><img src="/p/test5-chinese/index.assets/1730629198636-46332294-cb81-4b8f-888c-ead81e657d2f.png"
+	width="1024"
+	height="766"
+	srcset="/p/test5-chinese/index.assets/1730629198636-46332294-cb81-4b8f-888c-ead81e657d2f_hu12601923765929882498.png 480w, /p/test5-chinese/index.assets/1730629198636-46332294-cb81-4b8f-888c-ead81e657d2f_hu5958734920004506030.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="320px"
+	
+></p>
+<p><img src="/p/test5-chinese/index.assets/1730629236192-15df913b-03c6-44db-8950-8bf04d8de813.png"
+	width="621"
+	height="471"
+	srcset="/p/test5-chinese/index.assets/1730629236192-15df913b-03c6-44db-8950-8bf04d8de813_hu5670945483612641015.png 480w, /p/test5-chinese/index.assets/1730629236192-15df913b-03c6-44db-8950-8bf04d8de813_hu15913530568588157280.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="131"
+		data-flex-basis="316px"
+	
+></p>
+<p><img src="/p/test5-chinese/index.assets/1730629248294-dc040a55-32dc-40c4-aa71-6e4d98a99477.png"
+	width="665"
+	height="510"
+	srcset="/p/test5-chinese/index.assets/1730629248294-dc040a55-32dc-40c4-aa71-6e4d98a99477_hu16476885307886433103.png 480w, /p/test5-chinese/index.assets/1730629248294-dc040a55-32dc-40c4-aa71-6e4d98a99477_hu15237121397340550133.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="130"
+		data-flex-basis="312px"
+	
+></p>
+<h1 id="最后">最后
+</h1><p>记得安装一个下tools</p>
+<p><img src="/p/test5-chinese/index.assets/1730630248856-694b3453-1b28-447c-9608-2020fa06637e.png"
+	width="1226"
+	height="986"
+	srcset="/p/test5-chinese/index.assets/1730630248856-694b3453-1b28-447c-9608-2020fa06637e_hu7701199982390510634.png 480w, /p/test5-chinese/index.assets/1730630248856-694b3453-1b28-447c-9608-2020fa06637e_hu18218058005940845845.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="124"
+		data-flex-basis="298px"
+	
+></p>
+<p><img src="/p/test5-chinese/index.assets/1730630338926-d5f105e2-1160-4213-92c7-4bf626082c12.png"
+	width="1025"
+	height="770"
+	srcset="/p/test5-chinese/index.assets/1730630338926-d5f105e2-1160-4213-92c7-4bf626082c12_hu12642247608383178741.png 480w, /p/test5-chinese/index.assets/1730630338926-d5f105e2-1160-4213-92c7-4bf626082c12_hu378279790510370520.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="319px"
+	
+></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/test3-chinese/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">内网学习一</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/test-chinese/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">域</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 鼎新实验室
+    </section>
+    
+    <section class="powerby">
+        
+            阜职网安小组 <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
