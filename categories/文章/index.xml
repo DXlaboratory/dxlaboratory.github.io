@@ -7,7 +7,332 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>鼎新实验室</copyright>
-        <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dxlaboratory.github.io/categories/%E6%96%87%E7%AB%A0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 02 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dxlaboratory.github.io/categories/%E6%96%87%E7%AB%A0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>内网学习一</title>
+        <link>https://dxlaboratory.github.io/p/test3-chinese/</link>
+        <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://dxlaboratory.github.io/p/test3-chinese/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;h4 id=&#34;工作组介绍&#34;&gt;工作组介绍
+&lt;/h4&gt;&lt;p&gt;按照不同的计算机功能或工作部门将计算机列入不同的工作组。要是想访问某一个工作组的资源只需要双击该部门的工作组，就可以看到该组内的所有计算机。
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092856406.png&#34;
+	width=&#34;1009&#34;
+	height=&#34;466&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092856406_hu5966284646699217369.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092856406_hu2329824973068185040.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106092856406&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;216&#34;
+		data-flex-basis=&#34;519px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;目的：在大型网络中，方便管理员去管理设备&lt;/p&gt;
+&lt;h4 id=&#34;加入工作组&#34;&gt;加入工作组
+&lt;/h4&gt;&lt;p&gt;右击计算机图标&amp;mdash;-&amp;gt;属性&amp;mdash;-&amp;gt;高级系统设置&amp;mdash;-&amp;gt;计算机名&amp;mdash;-&amp;gt;更改设置&amp;mdash;-&amp;gt;更改&amp;mdash;-&amp;gt;输入计算机名称和想要加入工作组的名称&amp;mdash;-&amp;gt;确定
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092908467.png&#34;
+	width=&#34;1018&#34;
+	height=&#34;498&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092908467_hu9298972650640557488.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092908467_hu18034439289101464593.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106092908467&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;204&#34;
+		data-flex-basis=&#34;490px&#34;
+	
+&gt;创建工作组&lt;/p&gt;
+&lt;p&gt;输入的名称在网络中不存在，那么加入工作组就相当于新建了一个工作组，创建之后直接重新启动就可以了。&lt;/p&gt;
+&lt;h4 id=&#34;退出工作组&#34;&gt;退出工作组
+&lt;/h4&gt;&lt;p&gt;只需要把工作组的名称改为想加入的工作组就可以了。
+工作组就像一个可以自由退出重新的社团，方便加入和退出。&lt;/p&gt;
+&lt;h4 id=&#34;工作组的优缺点&#34;&gt;工作组的优缺点
+&lt;/h4&gt;&lt;p&gt;优点:
+1、方便管理和维护
+2、资源分配方便和灵活
+缺点:
+1、缺乏集中管理与控制的机制
+2、没有集中的统一帐户管理
+3、只适合小规模用户的使用&lt;/p&gt;
+&lt;h4 id=&#34;ad活动目录&#34;&gt;AD活动目录
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;活动目录( Active Directory,AD)是指域环境中提供目录服务的组件，目录用于存储有关网络对象(例如用户、组、计算机、共享资源、打印机和联系人等)的信息。目录服务是指帮助用户快速、准确地从目录中找到其所需要的信息的服务。活动目录实现了 目录服务,为企业提供了网络环境的集中式管理机制
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;AD活动目录并不是只能存在域控制内，可以安装在域内成员中，但是需要域管理员的用户名和密码
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092924721.png&#34;
+	width=&#34;1015&#34;
+	height=&#34;709&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092924721_hu8237711235349458149.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092924721_hu17725019710989400013.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106092924721&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;343px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;组织单元介绍&#34;&gt;组织单元介绍
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;组织单元(OU)是域中包含的一类目录对象如用户、计算机和组、文件与打印机等资源，是一个容器，可以在OU上部署组策略
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h5 id=&#34;创建组织单元&#34;&gt;创建组织单元
+&lt;/h5&gt;&lt;p&gt;&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092934605.png&#34;
+	width=&#34;993&#34;
+	height=&#34;688&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092934605_hu11666969056828189712.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092934605_hu8825434228030892132.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106092934605&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;346px&#34;
+	
+&gt;
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092942710.png&#34;
+	width=&#34;1011&#34;
+	height=&#34;705&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092942710_hu5683772741874537817.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106092942710_hu12542392435825968853.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106092942710&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;344px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;本地工作组&#34;&gt;本地工作组
+&lt;/h4&gt;&lt;p&gt;本地工作组中的所有账号密码都存储在本地的电脑文件中。&lt;/p&gt;
+&lt;p&gt;一般来说，电脑上存在两种角色，一个是组，一个是用户。一个组可以有多个用户，而一个用户也可以加入多个组。通过给组划分权限，将用户分到对应的组上，用户就有了不同的权限&lt;/p&gt;
+&lt;p&gt;位置
+计算机管理 &amp;mdash;-&amp;gt;本地用户和组。
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093014464.png&#34;
+	width=&#34;1015&#34;
+	height=&#34;633&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093014464_hu6600989116623203303.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093014464_hu820250532808421929.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106093014464&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;384px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;本地最高管理员权限&#34;&gt;本地最高管理员权限
+&lt;/h5&gt;&lt;p&gt;本地最高的管理员用户为Administrator用户。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Administrator在家庭版中属于禁用状态，专业版域server版属于开启&lt;/li&gt;
+&lt;li&gt;Administrator的SID最后一位是500&lt;/li&gt;
+&lt;li&gt;Administrator用户默认在administrators组中
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093025222.png&#34;
+	width=&#34;958&#34;
+	height=&#34;828&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093025222_hu17576080048479123230.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093025222_hu11063101629615088371.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106093025222&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;115&#34;
+		data-flex-basis=&#34;277px&#34;
+	
+&gt;
+&lt;strong&gt;==Administrators最后的四位默认是500==&lt;/strong&gt;
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093034588.png&#34;
+	width=&#34;958&#34;
+	height=&#34;507&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093034588_hu5464055639309094430.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093034588_hu7490801167320188783.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106093034588&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;453px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;本地普通管理员权限&#34;&gt;本地普通管理员权限
+&lt;/h5&gt;&lt;p&gt;一般是指加入administratorts组的管理员，但不是administrator用户
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093043537.png&#34;
+	width=&#34;697&#34;
+	height=&#34;870&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093043537_hu12635584595860408669.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093043537_hu13001806611963364186.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106093043537&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;80&#34;
+		data-flex-basis=&#34;192px&#34;
+	
+&gt;
+普通管理员很多的操作都没有权限，比如增加一个新用户。（可以右键&amp;mdash;&amp;gt;以管理员身份运行cmd添加用户)无法使用这些命令的原因是windows的UAC认证
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093056753.png&#34;
+	width=&#34;1015&#34;
+	height=&#34;535&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093056753_hu9656852411087310312.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093056753_hu9229444586293207492.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106093056753&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;189&#34;
+		data-flex-basis=&#34;455px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;本地普通用户&#34;&gt;本地普通用户
+&lt;/h5&gt;&lt;p&gt;在windows中新建的普通用户，没有管理员权限，很多的操作都无法执行，需要管理员认证后才可以执行。（新建用户默认是user组）
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093106624.png&#34;
+	width=&#34;702&#34;
+	height=&#34;859&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093106624_hu12940157187409657789.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093106624_hu10895265333955213110.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106093106624&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;81&#34;
+		data-flex-basis=&#34;196px&#34;
+	
+&gt;
+普通用户想要以管理员运行cmd的话，需要输入管理员密码认证
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093118474.png&#34;
+	width=&#34;574&#34;
+	height=&#34;495&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093118474_hu6689360971580186045.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093118474_hu5309934495191041499.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106093118474&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;115&#34;
+		data-flex-basis=&#34;278px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;本地系统最高权限&#34;&gt;本地系统最高权限
+&lt;/h5&gt;&lt;p&gt;system是系统，在windows中主要作为系统服务或进程的最高权限。
+==**Administrator和system权限区别==
+Administrator是系统内置的管理员用户，而system权限是系统本身的权限，另外在注册表内的一些到地方也是只有系统自己可以访问，Administrator也不能访问。两个权限所负责的不一样，所以并不是说system比administrator的权限大。&lt;/p&gt;
+&lt;h4 id=&#34;什么是uac认证&#34;&gt;什么是UAC认证
+&lt;/h4&gt;&lt;p&gt;UAC认证是windows7引入的新技术，一般当计算机执行一些影响系统安全的操作时会触发UAC，用户确认后才能执行。
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093131650.png&#34;
+	width=&#34;855&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093131650_hu5917808115346100799.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093131650_hu8390847175696351876.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106093131650&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;207&#34;
+		data-flex-basis=&#34;498px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;触发条件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;修改Windows Update配置;&lt;/li&gt;
+&lt;li&gt;增加或删除用户帐户&lt;/li&gt;
+&lt;li&gt;改变用户的帐户类型;&lt;/li&gt;
+&lt;li&gt;改变UAC设置;&lt;/li&gt;
+&lt;li&gt;安装ActiveX;&lt;/li&gt;
+&lt;li&gt;安装或卸载程序;&lt;/li&gt;
+&lt;li&gt;安装设备驱动程序&lt;/li&gt;
+&lt;li&gt;修改和设置家长控制;&lt;/li&gt;
+&lt;li&gt;增加或修改注册表;&lt;/li&gt;
+&lt;li&gt;将文件移动或复制到Program Files或是Windows目录&lt;/li&gt;
+&lt;li&gt;访问其他用户目录&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;UAC设置分为四种，始终通知、仅在程序尝试对计算机进行更改时通知，、仅在尝试更改计算机时通知我(不降低桌面亮度）、和从不通知&lt;/p&gt;
+&lt;p&gt;输入win+R&amp;ndash;msconfig 设置UAC &amp;mdash; &amp;gt; 工具 &amp;mdash;-&amp;gt;更改UAC设置
+注：哪怕设置为从不提醒，普通管理员或普通用户不能使用的命令还是不能使用，只是不弹窗了。
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093142789.png&#34;
+	width=&#34;1018&#34;
+	height=&#34;664&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093142789_hu5505734899345225539.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093142789_hu6516180597558732839.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106093142789&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;367px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;机器用户&#34;&gt;机器用户
+&lt;/h5&gt;&lt;p&gt;Domain Computers组，任何由我们建立的计算机账号都属于该组。
+机器账户是指在网络中用于代表计算机或设备的账户。
+机器账户的名称通常以计算机名称或计算机GUID作为前缀，如“ZS-PC$&amp;quot;。
+机器账户与具体计算机相关联，用于代表计算机进行域认证和访问域资源
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093153204.png&#34;
+	width=&#34;1023&#34;
+	height=&#34;417&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093153204_hu6477216206962811626.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093153204_hu6743951220716876174.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106093153204&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;245&#34;
+		data-flex-basis=&#34;588px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;system&#34;&gt;system
+&lt;/h5&gt;&lt;p&gt;system的中文是系统，在windows中主要作为系统服务或进程的运行账户。
+&lt;img src=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093201448.png&#34;
+	width=&#34;1020&#34;
+	height=&#34;568&#34;
+	srcset=&#34;https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093201448_hu10738110040513124201.png 480w, https://dxlaboratory.github.io/p/test3-chinese/index.assets/image-20241106093201448_hu17510475878048378725.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20241106093201448&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;430px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;机器用户与system用户的区别&#34;&gt;机器用户与system用户的区别
+&lt;/h5&gt;&lt;p&gt;当机器用户加入到域之后，机器账号的密码或同步到域控上，
+虽然system账户在本地计算机上是特殊账号，而机器账户是域环境中的账户，但==在某些情况下，例如当本地计算机需要访问域资源时，system账户可能会充当机器账户的角色==。这是因为在域环境中，本地计算机可以使用system账户作为其身份进行域认证和访问授权。但是它们仍然是两个不同的概念，system账户不是专门为域中的机器账户而创建的。&lt;/p&gt;
+&lt;p&gt;例如：当我们获取到一台主机的权限时，发现该主机虽然加入了域，但是当前登录的账户不是域账户，那么我们就无法做域信息收集，这时候可以把当前用户的权限提升至system，在特殊情况下system可以当作域内的机器账户使用。&lt;/p&gt;
+&lt;p&gt;提权方法：可以使用工具incognito来提权到system的用户。
+工具详细使用方法百度。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>域</title>
         <link>https://dxlaboratory.github.io/p/test-chinese/</link>
         <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>

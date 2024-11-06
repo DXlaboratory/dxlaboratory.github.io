@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="内网学习">
+<title>内网学习一</title>
+
+<link rel='canonical' href='https://dxlaboratory.github.io/p/test3-chinese/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="内网学习一">
+<meta property='og:description' content="内网学习">
+<meta property='og:url' content='https://dxlaboratory.github.io/p/test3-chinese/'>
+<meta property='og:site_name' content='鼎新安全'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-11-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-02T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="内网学习一">
+<meta name="twitter:description" content="内网学习">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu15989093696106354798.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">👻</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">鼎新安全</a></h1>
+            <h2 class="site-description">欢迎来到鼎新实验室</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/DXlaboratory/dxlaboratory.github.io'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://mp.weixin.qq.com/s/jZzsY_2BypWwcvoKPSW0jw'
+                        target="_blank"
+                        title="WX"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1152" height="1024" viewBox="0 0 576 512" role="img"><path d="M385.2 167.6c6.4 0 12.6.3 18.8 1.1C387.4 90.3 303.3 32 207.7 32 100.5 32 13 104.8 13 197.4c0 53.4 29.3 97.5 77.9 131.6l-19.3 58.6 68-34.1c24.4 4.8 43.8 9.7 68.2 9.7 6.2 0 12.1-.3 18.3-.8-4-12.9-6.2-26.6-6.2-40.8-.1-84.9 72.9-154 165.3-154zm-104.5-52.9c14.5 0 24.2 9.7 24.2 24.4 0 14.5-9.7 24.2-24.2 24.2-14.8 0-29.3-9.7-29.3-24.2.1-14.7 14.6-24.4 29.3-24.4zm-136.4 48.6c-14.5 0-29.3-9.7-29.3-24.2 0-14.8 14.8-24.4 29.3-24.4 14.8 0 24.4 9.7 24.4 24.4 0 14.6-9.6 24.2-24.4 24.2zM563 319.4c0-77.9-77.9-141.3-165.4-141.3-92.7 0-165.4 63.4-165.4 141.3S305 460.7 397.6 460.7c19.3 0 38.9-5.1 58.6-9.9l53.4 29.3-14.8-48.6C534 402.1 563 363.2 563 319.4zm-219.1-24.5c-9.7 0-19.3-9.7-19.3-19.6 0-9.7 9.7-19.3 19.3-19.3 14.8 0 24.4 9.7 24.4 19.3 0 10-9.7 19.6-24.4 19.6zm107.1 0c-9.7 0-19.3-9.7-19.3-19.6 0-9.7 9.7-19.3 19.3-19.3 14.5 0 24.4 9.7 24.4 19.3.1 10-9.9 19.6-24.4 19.6z"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://dxlaboratory.github.io/en/" >English</option>
+                                
+                                    <option value="https://dxlaboratory.github.io/" selected>简体中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#工作组介绍">工作组介绍</a></li>
+            <li><a href="#加入工作组">加入工作组</a></li>
+            <li><a href="#退出工作组">退出工作组</a></li>
+            <li><a href="#工作组的优缺点">工作组的优缺点</a></li>
+            <li><a href="#ad活动目录">AD活动目录</a></li>
+            <li><a href="#组织单元介绍">组织单元介绍</a></li>
+            <li><a href="#本地工作组">本地工作组</a></li>
+            <li><a href="#什么是uac认证">什么是UAC认证</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%96%87%E7%AB%A0/" >
+                文章
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/test3-chinese/">内网学习一</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            内网学习
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Nov 02, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 5 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>+++</p>
+<h4 id="工作组介绍">工作组介绍
+</h4><p>按照不同的计算机功能或工作部门将计算机列入不同的工作组。要是想访问某一个工作组的资源只需要双击该部门的工作组，就可以看到该组内的所有计算机。
+<img src="/p/test3-chinese/index.assets/image-20241106092856406.png"
+	width="1009"
+	height="466"
+	srcset="/p/test3-chinese/index.assets/image-20241106092856406_hu5966284646699217369.png 480w, /p/test3-chinese/index.assets/image-20241106092856406_hu2329824973068185040.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106092856406"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="216"
+		data-flex-basis="519px"
+	
+></p>
+<p>目的：在大型网络中，方便管理员去管理设备</p>
+<h4 id="加入工作组">加入工作组
+</h4><p>右击计算机图标&mdash;-&gt;属性&mdash;-&gt;高级系统设置&mdash;-&gt;计算机名&mdash;-&gt;更改设置&mdash;-&gt;更改&mdash;-&gt;输入计算机名称和想要加入工作组的名称&mdash;-&gt;确定
+<img src="/p/test3-chinese/index.assets/image-20241106092908467.png"
+	width="1018"
+	height="498"
+	srcset="/p/test3-chinese/index.assets/image-20241106092908467_hu9298972650640557488.png 480w, /p/test3-chinese/index.assets/image-20241106092908467_hu18034439289101464593.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106092908467"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="204"
+		data-flex-basis="490px"
+	
+>创建工作组</p>
+<p>输入的名称在网络中不存在，那么加入工作组就相当于新建了一个工作组，创建之后直接重新启动就可以了。</p>
+<h4 id="退出工作组">退出工作组
+</h4><p>只需要把工作组的名称改为想加入的工作组就可以了。
+工作组就像一个可以自由退出重新的社团，方便加入和退出。</p>
+<h4 id="工作组的优缺点">工作组的优缺点
+</h4><p>优点:
+1、方便管理和维护
+2、资源分配方便和灵活
+缺点:
+1、缺乏集中管理与控制的机制
+2、没有集中的统一帐户管理
+3、只适合小规模用户的使用</p>
+<h4 id="ad活动目录">AD活动目录
+</h4><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">活动目录( Active Directory,AD)是指域环境中提供目录服务的组件，目录用于存储有关网络对象(例如用户、组、计算机、共享资源、打印机和联系人等)的信息。目录服务是指帮助用户快速、准确地从目录中找到其所需要的信息的服务。活动目录实现了 目录服务,为企业提供了网络环境的集中式管理机制
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>AD活动目录并不是只能存在域控制内，可以安装在域内成员中，但是需要域管理员的用户名和密码
+<img src="/p/test3-chinese/index.assets/image-20241106092924721.png"
+	width="1015"
+	height="709"
+	srcset="/p/test3-chinese/index.assets/image-20241106092924721_hu8237711235349458149.png 480w, /p/test3-chinese/index.assets/image-20241106092924721_hu17725019710989400013.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106092924721"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="143"
+		data-flex-basis="343px"
+	
+></p>
+<h4 id="组织单元介绍">组织单元介绍
+</h4><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">组织单元(OU)是域中包含的一类目录对象如用户、计算机和组、文件与打印机等资源，是一个容器，可以在OU上部署组策略
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="创建组织单元">创建组织单元
+</h5><p><img src="/p/test3-chinese/index.assets/image-20241106092934605.png"
+	width="993"
+	height="688"
+	srcset="/p/test3-chinese/index.assets/image-20241106092934605_hu11666969056828189712.png 480w, /p/test3-chinese/index.assets/image-20241106092934605_hu8825434228030892132.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106092934605"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="144"
+		data-flex-basis="346px"
+	
+>
+<img src="/p/test3-chinese/index.assets/image-20241106092942710.png"
+	width="1011"
+	height="705"
+	srcset="/p/test3-chinese/index.assets/image-20241106092942710_hu5683772741874537817.png 480w, /p/test3-chinese/index.assets/image-20241106092942710_hu12542392435825968853.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106092942710"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="143"
+		data-flex-basis="344px"
+	
+></p>
+<h4 id="本地工作组">本地工作组
+</h4><p>本地工作组中的所有账号密码都存储在本地的电脑文件中。</p>
+<p>一般来说，电脑上存在两种角色，一个是组，一个是用户。一个组可以有多个用户，而一个用户也可以加入多个组。通过给组划分权限，将用户分到对应的组上，用户就有了不同的权限</p>
+<p>位置
+计算机管理 &mdash;-&gt;本地用户和组。
+<img src="/p/test3-chinese/index.assets/image-20241106093014464.png"
+	width="1015"
+	height="633"
+	srcset="/p/test3-chinese/index.assets/image-20241106093014464_hu6600989116623203303.png 480w, /p/test3-chinese/index.assets/image-20241106093014464_hu820250532808421929.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106093014464"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+></p>
+<h5 id="本地最高管理员权限">本地最高管理员权限
+</h5><p>本地最高的管理员用户为Administrator用户。</p>
+<ol>
+<li>Administrator在家庭版中属于禁用状态，专业版域server版属于开启</li>
+<li>Administrator的SID最后一位是500</li>
+<li>Administrator用户默认在administrators组中
+<img src="/p/test3-chinese/index.assets/image-20241106093025222.png"
+	width="958"
+	height="828"
+	srcset="/p/test3-chinese/index.assets/image-20241106093025222_hu17576080048479123230.png 480w, /p/test3-chinese/index.assets/image-20241106093025222_hu11063101629615088371.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106093025222"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="115"
+		data-flex-basis="277px"
+	
+>
+<strong>==Administrators最后的四位默认是500==</strong>
+<img src="/p/test3-chinese/index.assets/image-20241106093034588.png"
+	width="958"
+	height="507"
+	srcset="/p/test3-chinese/index.assets/image-20241106093034588_hu5464055639309094430.png 480w, /p/test3-chinese/index.assets/image-20241106093034588_hu7490801167320188783.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106093034588"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="188"
+		data-flex-basis="453px"
+	
+></li>
+</ol>
+<h5 id="本地普通管理员权限">本地普通管理员权限
+</h5><p>一般是指加入administratorts组的管理员，但不是administrator用户
+<img src="/p/test3-chinese/index.assets/image-20241106093043537.png"
+	width="697"
+	height="870"
+	srcset="/p/test3-chinese/index.assets/image-20241106093043537_hu12635584595860408669.png 480w, /p/test3-chinese/index.assets/image-20241106093043537_hu13001806611963364186.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106093043537"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="80"
+		data-flex-basis="192px"
+	
+>
+普通管理员很多的操作都没有权限，比如增加一个新用户。（可以右键&mdash;&gt;以管理员身份运行cmd添加用户)无法使用这些命令的原因是windows的UAC认证
+<img src="/p/test3-chinese/index.assets/image-20241106093056753.png"
+	width="1015"
+	height="535"
+	srcset="/p/test3-chinese/index.assets/image-20241106093056753_hu9656852411087310312.png 480w, /p/test3-chinese/index.assets/image-20241106093056753_hu9229444586293207492.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106093056753"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="189"
+		data-flex-basis="455px"
+	
+></p>
+<h5 id="本地普通用户">本地普通用户
+</h5><p>在windows中新建的普通用户，没有管理员权限，很多的操作都无法执行，需要管理员认证后才可以执行。（新建用户默认是user组）
+<img src="/p/test3-chinese/index.assets/image-20241106093106624.png"
+	width="702"
+	height="859"
+	srcset="/p/test3-chinese/index.assets/image-20241106093106624_hu12940157187409657789.png 480w, /p/test3-chinese/index.assets/image-20241106093106624_hu10895265333955213110.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106093106624"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="81"
+		data-flex-basis="196px"
+	
+>
+普通用户想要以管理员运行cmd的话，需要输入管理员密码认证
+<img src="/p/test3-chinese/index.assets/image-20241106093118474.png"
+	width="574"
+	height="495"
+	srcset="/p/test3-chinese/index.assets/image-20241106093118474_hu6689360971580186045.png 480w, /p/test3-chinese/index.assets/image-20241106093118474_hu5309934495191041499.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106093118474"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="115"
+		data-flex-basis="278px"
+	
+></p>
+<h5 id="本地系统最高权限">本地系统最高权限
+</h5><p>system是系统，在windows中主要作为系统服务或进程的最高权限。
+==**Administrator和system权限区别==
+Administrator是系统内置的管理员用户，而system权限是系统本身的权限，另外在注册表内的一些到地方也是只有系统自己可以访问，Administrator也不能访问。两个权限所负责的不一样，所以并不是说system比administrator的权限大。</p>
+<h4 id="什么是uac认证">什么是UAC认证
+</h4><p>UAC认证是windows7引入的新技术，一般当计算机执行一些影响系统安全的操作时会触发UAC，用户确认后才能执行。
+<img src="/p/test3-chinese/index.assets/image-20241106093131650.png"
+	width="855"
+	height="412"
+	srcset="/p/test3-chinese/index.assets/image-20241106093131650_hu5917808115346100799.png 480w, /p/test3-chinese/index.assets/image-20241106093131650_hu8390847175696351876.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106093131650"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="207"
+		data-flex-basis="498px"
+	
+></p>
+<p>触发条件：</p>
+<ol>
+<li>修改Windows Update配置;</li>
+<li>增加或删除用户帐户</li>
+<li>改变用户的帐户类型;</li>
+<li>改变UAC设置;</li>
+<li>安装ActiveX;</li>
+<li>安装或卸载程序;</li>
+<li>安装设备驱动程序</li>
+<li>修改和设置家长控制;</li>
+<li>增加或修改注册表;</li>
+<li>将文件移动或复制到Program Files或是Windows目录</li>
+<li>访问其他用户目录</li>
+</ol>
+<p>UAC设置分为四种，始终通知、仅在程序尝试对计算机进行更改时通知，、仅在尝试更改计算机时通知我(不降低桌面亮度）、和从不通知</p>
+<p>输入win+R&ndash;msconfig 设置UAC &mdash; &gt; 工具 &mdash;-&gt;更改UAC设置
+注：哪怕设置为从不提醒，普通管理员或普通用户不能使用的命令还是不能使用，只是不弹窗了。
+<img src="/p/test3-chinese/index.assets/image-20241106093142789.png"
+	width="1018"
+	height="664"
+	srcset="/p/test3-chinese/index.assets/image-20241106093142789_hu5505734899345225539.png 480w, /p/test3-chinese/index.assets/image-20241106093142789_hu6516180597558732839.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106093142789"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="153"
+		data-flex-basis="367px"
+	
+></p>
+<h5 id="机器用户">机器用户
+</h5><p>Domain Computers组，任何由我们建立的计算机账号都属于该组。
+机器账户是指在网络中用于代表计算机或设备的账户。
+机器账户的名称通常以计算机名称或计算机GUID作为前缀，如“ZS-PC$&quot;。
+机器账户与具体计算机相关联，用于代表计算机进行域认证和访问域资源
+<img src="/p/test3-chinese/index.assets/image-20241106093153204.png"
+	width="1023"
+	height="417"
+	srcset="/p/test3-chinese/index.assets/image-20241106093153204_hu6477216206962811626.png 480w, /p/test3-chinese/index.assets/image-20241106093153204_hu6743951220716876174.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106093153204"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="245"
+		data-flex-basis="588px"
+	
+></p>
+<h5 id="system">system
+</h5><p>system的中文是系统，在windows中主要作为系统服务或进程的运行账户。
+<img src="/p/test3-chinese/index.assets/image-20241106093201448.png"
+	width="1020"
+	height="568"
+	srcset="/p/test3-chinese/index.assets/image-20241106093201448_hu10738110040513124201.png 480w, /p/test3-chinese/index.assets/image-20241106093201448_hu17510475878048378725.png 1024w"
+	loading="lazy"
+	
+		alt="image-20241106093201448"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="179"
+		data-flex-basis="430px"
+	
+></p>
+<h5 id="机器用户与system用户的区别">机器用户与system用户的区别
+</h5><p>当机器用户加入到域之后，机器账号的密码或同步到域控上，
+虽然system账户在本地计算机上是特殊账号，而机器账户是域环境中的账户，但==在某些情况下，例如当本地计算机需要访问域资源时，system账户可能会充当机器账户的角色==。这是因为在域环境中，本地计算机可以使用system账户作为其身份进行域认证和访问授权。但是它们仍然是两个不同的概念，system账户不是专门为域中的机器账户而创建的。</p>
+<p>例如：当我们获取到一台主机的权限时，发现该主机虽然加入了域，但是当前登录的账户不是域账户，那么我们就无法做域信息收集，这时候可以把当前用户的权限提升至system，在特殊情况下system可以当作域内的机器账户使用。</p>
+<p>提权方法：可以使用工具incognito来提权到system的用户。
+工具详细使用方法百度。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/test-chinese/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">域</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 鼎新实验室
+    </section>
+    
+    <section class="powerby">
+        
+            阜职网安小组 <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
